@@ -1,0 +1,16 @@
+feature_type,feature,expected_direction,median_difference_Plaque_minus_Control,n_pairs,n_support_expected_direction,direction_supported,p_two_sided,FDR_two_sided,p_directional,FDR_directional
+program,C1C2_late_vascular_remodeling,Plaque_higher,-0.33159758653418625,9,3.0,False,0.0546875,0.13671875,0.98046875,0.98046875
+program,C3_early_activation,Plaque_higher,0.01662209996665731,9,5.0,True,0.734375,0.91015625,0.3671875,0.7584635416666666
+program,C4_independent_ECM_remodeling,Plaque_higher,0.02328043467514751,9,5.0,True,0.91015625,0.91015625,0.455078125,0.7584635416666666
+program,C7_arterial_identity,Plaque_lower,0.13510045264011158,9,3.0,False,0.09765625,0.16276041666666666,0.962890625,0.98046875
+program,protective_homeostasis,Plaque_lower,-0.22945246799422542,9,7.0,True,0.0546875,0.13671875,0.02734375,0.13671875
+original_nine,ANGPT2,not_preassigned_in_this_script,0.0,9,,,0.21875,0.8154296875,,
+original_nine,CTHRC1,not_preassigned_in_this_script,0.5904687177447201,9,,,0.640625,0.8154296875,,
+original_nine,HIF1A,not_preassigned_in_this_script,-0.003529331681098924,9,,,0.734375,0.8159722222222222,,
+original_nine,LOX,not_preassigned_in_this_script,-0.10582555324124954,9,,,0.375,0.8154296875,,
+original_nine,NAMPT,not_preassigned_in_this_script,0.021783147002661707,9,,,0.65234375,0.8154296875,,
+original_nine,SMAD1,not_preassigned_in_this_script,0.10092494982930234,9,,,0.49609375,0.8154296875,,
+original_nine,SOX4,not_preassigned_in_this_script,0.054243778125897535,9,,,0.5703125,0.8154296875,,
+SULF1_reference,SULF1,not_preassigned_in_this_script,-1.0180352782515625,9,,,0.078125,0.78125,,
+original_nine,TGFBR3,not_preassigned_in_this_script,0.08313184241783844,9,,,1.0,1.0,,
+original_nine,THBS1,not_preassigned_in_this_script,-0.3852085839358681,9,,,0.3828125,0.8154296875,,

@@ -1,0 +1,163 @@
+============================================================
+C3连续血管身份校正与早期候选最终再筛选
+============================================================
+
+使用降维： harmony ；维数： 20 
+原始候选基因数： 501 
+C3细胞数： 750 
+C7细胞数： 195 
+
+------------------------------------------------------------
+分析场景状态
+------------------------------------------------------------
+                    scenario min_cells adjust_identity n_paired_donors
+1             All_unadjusted         5           FALSE              14
+2      All_identity_adjusted         5            TRUE              14
+3                Proximity50         5           FALSE              13
+4                Proximity30         3           FALSE              14
+5 Proximity50_highArterialC7         3           FALSE              14
+                   design_used status
+1                  donor_state     OK
+2 donor_continuity_panEC_state     OK
+3                  donor_state     OK
+4                  donor_state     OK
+5                  donor_state     OK
+
+------------------------------------------------------------
+C3到C7邻近分析覆盖
+------------------------------------------------------------
+# A tibble: 5 × 4
+  dataset_id n_C3_cells n_C7_reference_cells median_distance
+  <chr>           <int>                <int>           <dbl>
+1 GSE155512          20                   18            5.73
+2 GSE179159           6                    5            6.88
+3 GSE224273          15                    2            8.44
+4 GSE234077          33                   18            6.08
+5 GSE253904         676                  152            5.19
+
+------------------------------------------------------------
+最终优先级数量
+------------------------------------------------------------
+                    final_priority n_genes
+1                     Anchor_SULF1       1
+2 Identity_or_contamination_marker      12
+3                     Needs_review     456
+4                       Priority_A      29
+5                       Priority_B       3
+
+------------------------------------------------------------
+Top 20最终候选
+------------------------------------------------------------
+      gene final_priority continuity_refined_score
+1   CTHRC1     Priority_A                 17.73913
+2      LOX     Priority_A                 17.52198
+3  TM4SF18     Priority_A                 17.35273
+4    BACE2     Priority_A                 17.13036
+5     PXDN     Priority_A                 17.00131
+6      ADM     Priority_A                 16.93974
+7      PGF     Priority_A                 16.87741
+8     PRCP     Priority_A                 16.62224
+9    CCL14     Priority_A                 16.59660
+10   SMAD1     Priority_A                 16.47411
+11    KLF6     Priority_A                 16.30938
+12  ANGPT2     Priority_A                 16.19948
+13    JAK1     Priority_A                 16.16784
+14   THBS1     Priority_A                 16.14907
+15    PIM3     Priority_A                 16.10382
+16   HIF1A     Priority_A                 15.92217
+17   NCOA7     Priority_A                 15.90574
+18   NAMPT     Priority_A                 15.68887
+19  EFEMP1     Priority_A                 15.64529
+20   NUPR1     Priority_A                 15.50850
+                                                 mechanistic_class early_logFC
+1                                 Secreted_signal_or_ECM_modulator   3.1693792
+2  Secreted_signal_or_ECM_modulator;Enzyme_or_signalling_modulator   5.2615405
+3                                Cell_surface_receptor_or_adhesion   2.1630082
+4                                   Enzyme_or_signalling_modulator   1.9133774
+5                                   Enzyme_or_signalling_modulator   2.2536673
+6                                 Secreted_signal_or_ECM_modulator   2.9245334
+7                                 Secreted_signal_or_ECM_modulator   2.6323728
+8                                   Enzyme_or_signalling_modulator   1.7921568
+9                                 Secreted_signal_or_ECM_modulator   5.1808119
+10                                 TF_or_transcriptional_regulator   1.5169460
+11                                 TF_or_transcriptional_regulator   0.6851680
+12                                Secreted_signal_or_ECM_modulator   2.6917599
+13                               Cell_surface_receptor_or_adhesion   0.7020418
+14                                Secreted_signal_or_ECM_modulator   2.5308477
+15                                  Enzyme_or_signalling_modulator   1.7398112
+16                                 TF_or_transcriptional_regulator   1.5128337
+17                                 TF_or_transcriptional_regulator   1.4312052
+18                                  Enzyme_or_signalling_modulator   1.1647008
+19                                Secreted_signal_or_ECM_modulator   4.5572622
+20                                 TF_or_transcriptional_regulator   4.0457575
+      early_FDR continuity_n_evaluable continuity_n_positive
+1  5.052089e-11                      4                     4
+2  6.457617e-12                      4                     4
+3  4.762727e-10                      4                     4
+4  5.954433e-09                      4                     4
+5  3.005722e-07                      4                     4
+6  1.064164e-07                      4                     4
+7  8.035545e-06                      4                     4
+8  5.116888e-07                      4                     4
+9  6.934291e-08                      4                     4
+10 5.038631e-05                      4                     4
+11 9.795851e-05                      4                     4
+12 1.046407e-05                      4                     4
+13 1.194344e-03                      4                     4
+14 1.587414e-04                      4                     4
+15 1.612580e-07                      4                     4
+16 1.955930e-06                      4                     4
+17 9.205409e-07                      4                     4
+18 1.158317e-05                      4                     4
+19 6.995557e-07                      4                     3
+20 1.803909e-08                      4                     3
+   continuity_n_FDR_010 continuity_positive_fraction continuity_median_logFC
+1                     3                         1.00               3.1409152
+2                     3                         1.00               3.9796205
+3                     3                         1.00               1.9729769
+4                     3                         1.00               1.7123655
+5                     3                         1.00               2.0207179
+6                     3                         1.00               2.4318087
+7                     3                         1.00               2.1433670
+8                     3                         1.00               1.7652512
+9                     3                         1.00               4.6595587
+10                    3                         1.00               1.4993689
+11                    3                         1.00               0.7505519
+12                    3                         1.00               1.7985022
+13                    3                         1.00               0.7157231
+14                    3                         1.00               2.2386497
+15                    3                         1.00               1.4762471
+16                    3                         1.00               1.1466258
+17                    3                         1.00               1.4379851
+18                    3                         1.00               0.8951342
+19                    3                         0.75               3.4097687
+20                    3                         0.75               3.0500157
+   trajectory_pattern vascular_bed_associated_flag hard_confounder_flag
+1      C3瞬时早期峰值                        FALSE                FALSE
+2      C3瞬时早期峰值                        FALSE                FALSE
+3      C3瞬时早期峰值                        FALSE                FALSE
+4      C3瞬时早期峰值                        FALSE                FALSE
+5      C3瞬时早期峰值                        FALSE                FALSE
+6      C3瞬时早期峰值                        FALSE                FALSE
+7      C3瞬时早期峰值                        FALSE                FALSE
+8    C3升高后相对维持                        FALSE                FALSE
+9      C3瞬时早期峰值                         TRUE                FALSE
+10     C3瞬时早期峰值                        FALSE                FALSE
+11     C3瞬时早期峰值                        FALSE                FALSE
+12     C3瞬时早期峰值                        FALSE                FALSE
+13   C3升高后相对维持                        FALSE                FALSE
+14     C3瞬时早期峰值                        FALSE                FALSE
+15     C3瞬时早期峰值                        FALSE                FALSE
+16     C3瞬时早期峰值                        FALSE                FALSE
+17   C3升高后相对维持                        FALSE                FALSE
+18   C3升高后相对维持                        FALSE                FALSE
+19     C3瞬时早期峰值                        FALSE                FALSE
+20     C3瞬时早期峰值                        FALSE                FALSE
+
+解释原则：
+1. C3是共享活化/过渡状态，不能仅凭当前marker身份称为纯动脉EC。
+2. 过渡细胞可能丢失动脉marker，因此以连续身份校正和C7邻近程度替代硬阈值过滤。
+3. Priority_A/B要求在身份校正或邻近敏感性分析中保持正向效应。
+4. ACKR1、APLN/APLNR、NR2F2、RGCC等仍作为血管床身份混杂标记处理。
+5. 本步骤筛选的是早期候选，不证明基因驱动C7向C3或SULF1状态转变。
+6. 下一步将Priority_A/B与LIANA/NicheNet和调控网络结果交叉，缩小到3至5个核心候选。

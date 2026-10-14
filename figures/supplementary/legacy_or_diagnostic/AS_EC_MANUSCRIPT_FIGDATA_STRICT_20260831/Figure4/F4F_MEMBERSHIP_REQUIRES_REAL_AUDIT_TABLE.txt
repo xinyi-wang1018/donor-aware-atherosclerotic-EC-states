@@ -1,0 +1,3 @@
+F4F membership matrix is intentionally NOT fabricated by this exporter.
+The wrapper script searches /root for the real literature-audit membership/reference-set files.
+Use only a real audit table that lists gene membership for Slenders/Wu/Botts/Yao.

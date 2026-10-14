@@ -1,0 +1,5 @@
+"program","main_Early_minus_Normal","main_Advanced_minus_Normal","main_Advanced_minus_Early_paired","expanded_Early_minus_Normal","expanded_Advanced_minus_Normal","expanded_Advanced_minus_Early_paired","directional_evidence"
+"C7_homeostatic_arterial",0.0690542766101217,0.0690542766101217,0.0690542766101217,-0.0112009884897004,-0.0112009884897004,-0.0112009884897004,"expected_direction_not_reproduced_in_main"
+"C3_early_activation",0.0690542766101217,0.0690542766101217,0.0690542766101217,-0.0112009884897004,-0.0112009884897004,-0.0112009884897004,"directionally_supported_in_main_only"
+"C2_late_vascular_remodeling",0.0690542766101217,0.0690542766101217,0.0690542766101217,-0.0112009884897004,-0.0112009884897004,-0.0112009884897004,"directionally_supported_in_main_only"
+"ECM_remodeling_support",0.0690542766101217,0.0690542766101217,0.0690542766101217,-0.0112009884897004,-0.0112009884897004,-0.0112009884897004,"directionally_supported_in_main_only"

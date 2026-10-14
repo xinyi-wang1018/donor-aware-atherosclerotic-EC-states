@@ -1,0 +1,4 @@
+"metric","observed","expected","PASS"
+"n_paired_donors",12,12,TRUE
+"GSE155512_donors",1,1,TRUE
+"GSE253904_donors",11,11,TRUE

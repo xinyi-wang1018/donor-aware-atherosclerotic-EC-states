@@ -1,0 +1,4 @@
+"metric","observed","expected","PASS"
+"tested_genes",3375,4491,FALSE
+"FDR_lt_0.05",941,1068,FALSE
+"C3_up_FDR_lt_0.05_logFC_gt_0.5",458,574,FALSE

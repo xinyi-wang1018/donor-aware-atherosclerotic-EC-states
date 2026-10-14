@@ -1,0 +1,15 @@
+FINAL paired pseudobulk C3-vs-C7 method:
+- strict EC sources: GSE155512 + GSE253904
+- biological replicate: donor
+- donor inclusion: >=5 C3 cells AND >=5 C7 cells per donor
+- paired donors: 12 (expected: 1 GSE155512 + 11 GSE253904)
+- counts: raw RNA counts summed within donor-state
+- edgeR design: ~ donor_factor + condition, condition levels C7 then C3
+- filterByExpr: design=paired design, min.count=10, min.total.count=15, large.n=10, min.prop=0.7
+- normalization: TMM via calcNormFactors
+- dispersion: estimateDisp, robust=TRUE when supported
+- test: glmQLFit + glmQLFTest, C3 vs C7 coefficient
+- multiple testing: Benjamini-Hochberg FDR from topTags
+- C3-up definition: FDR<0.05 and logFC>0.5
+- final frozen counts: 3375 tested; 941 FDR<0.05; 458 C3-up; 421 C3-down
+- sensitivity: donor inclusion thresholds 5/10/20/30 cells/state, using the SAME min.count=10 gene filter

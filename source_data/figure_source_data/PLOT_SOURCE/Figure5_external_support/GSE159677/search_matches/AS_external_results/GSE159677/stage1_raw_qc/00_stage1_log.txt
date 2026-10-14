@@ -1,0 +1,35 @@
+===== GSE159677 STAGE 1: RAW IMPORT AND QC AUDIT =====
+Start: 2026-07-29 01:53:45 
+Input: /root/AS_external_raw/GSE159677 
+Output: /root/AS_external_results/GSE159677/stage1_raw_qc 
+
+Reading 10x matrix...
+Matrix dimensions: 33538 genes x 51981 cells
+
+Raw cell counts by sample:
+ sample_id suffix patient_id region n_cells
+     P1_PA      1         P1     PA    3716
+     P1_AC      2         P1     AC   11015
+     P2_PA      3         P2     PA    5523
+     P2_AC      4         P2     AC   15960
+     P3_PA      5         P3     PA    3379
+     P3_AC      6         P3     AC   12388
+
+Creating Seurat object without filtering...
+
+Saved raw unfiltered Seurat object.
+
+Outputs:
+/root/AS_external_results/GSE159677/stage1_raw_qc/00_stage1_log.txt 
+/root/AS_external_results/GSE159677/stage1_raw_qc/01_suffix_to_sample_mapping.csv 
+/root/AS_external_results/GSE159677/stage1_raw_qc/02_raw_cell_counts_by_sample.csv 
+/root/AS_external_results/GSE159677/stage1_raw_qc/03_cell_level_metadata.csv.gz 
+/root/AS_external_results/GSE159677/stage1_raw_qc/04_qc_quantiles_by_sample.csv 
+/root/AS_external_results/GSE159677/stage1_raw_qc/05_nFeature_RNA_by_sample.png 
+/root/AS_external_results/GSE159677/stage1_raw_qc/06_nCount_RNA_by_sample_log10.png 
+/root/AS_external_results/GSE159677/stage1_raw_qc/07_percent_mt_by_sample.png 
+/root/AS_external_results/GSE159677/stage1_raw_qc/08_percent_ribo_by_sample.png 
+/root/AS_external_results/GSE159677/stage1_raw_qc/GSE159677_raw_unfiltered_with_metadata.rds 
+
+===== STAGE 1 COMPLETE =====
+End: 2026-07-29 01:54:25 

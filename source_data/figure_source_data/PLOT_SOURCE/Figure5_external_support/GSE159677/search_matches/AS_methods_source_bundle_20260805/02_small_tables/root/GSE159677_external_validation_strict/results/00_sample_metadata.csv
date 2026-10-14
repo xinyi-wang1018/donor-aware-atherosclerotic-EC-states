@@ -1,0 +1,7 @@
+"gem_suffix","sample_id","patient_id","condition","tissue","GSM"
+1,"P1_PA","P1","PA","proximal_adjacent","GSM4837524"
+2,"P1_AC","P1","AC","atherosclerotic_core","GSM4837523"
+3,"P2_PA","P2","PA","proximal_adjacent","GSM4837526"
+4,"P2_AC","P2","AC","atherosclerotic_core","GSM4837525"
+5,"P3_PA","P3","PA","proximal_adjacent","GSM4837528"
+6,"P3_AC","P3","AC","atherosclerotic_core","GSM4837527"

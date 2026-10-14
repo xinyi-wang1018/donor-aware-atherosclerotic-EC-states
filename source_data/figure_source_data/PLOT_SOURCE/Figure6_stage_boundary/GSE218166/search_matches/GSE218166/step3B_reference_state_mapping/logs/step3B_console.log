@@ -1,0 +1,64 @@
+============================================================
+GSE218166 STEP 3B V3
+Reference EC-state mapping: C7 / C3 / C5 / C1-C2 + C4 off-axis
+Start: 2026-08-14 15:18:47 
+============================================================
+
+Detected reference state column: EC_cluster 
+Raw reference state values: 1, 2, 3, 4, 5, 7 
+Canonical reference state values: C1, C2, C3, C4, C5, C7 
+
+Discovery reference cells: 4704 
+Discovery reference genes: 32393 
+Reference states: 1, 2, 3, 4, 5, 7 
+
+MAIN_A_STRICT_EC / FL: query cells=1155, mapping features=2500
+EXPANDED_AB_EC / FL: query cells=2762, mapping features=2500
+MAIN_A_STRICT_EC_3DE / 3DE: query cells=296, mapping features=2500
+
+============================================================
+GSE218166 STEP3B REFERENCE STATE MAPPING
+============================================================
+Run time: 2026-08-14 15:20:08
+
+REFERENCE
+RDS: /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+State column: EC_cluster
+Reference C1+C2 were collapsed as C1C2_late.
+C4 was retained as an off-axis competitor to avoid forcing every EC onto the main trajectory.
+
+NON-CIRCULARITY GUARD
+Excluded from ALL mapping features: ANGPT2, LOX, CTHRC1, SULF1
+Forbidden genes accidentally used: NO
+
+MAPPING METHOD
+A state is called in the strict analysis only when Seurat label transfer and an independent scaled-centroid correlation agree,
+and both confidence/margin thresholds are passed.
+Otherwise the cell is Unassigned rather than being forced into a trajectory state.
+
+MAIN FL strict EC total: 1155
+Strictly assigned: 186 (16.1%)
+
+PRIMARY BIOLOGICAL QUESTION
+Does pathology progression change the COMPOSITION of EC transcriptional states rather than making all ECs change synchronously?
+
+DIRECTIONAL STATE-COMPOSITION SUMMARY
+C7 decreases by Early | MAIN effect=0.020 | EXPANDED effect=0.009 | expected_stage_enrichment_not_reproduced
+C7 decreases by Advanced | MAIN effect=0.020 | EXPANDED effect=0.009 | expected_stage_enrichment_not_reproduced
+C3 enriched in Early | MAIN effect=0.000 | EXPANDED effect=0.000 | expected_stage_enrichment_not_reproduced
+C1C2 enriched in Advanced vs Normal | MAIN effect=-0.129 | EXPANDED effect=-0.056 | expected_stage_enrichment_not_reproduced
+C1C2 enriched in Advanced vs matched Early | MAIN effect=-0.129 | EXPANDED effect=-0.056 | expected_stage_enrichment_not_reproduced
+
+STATISTICAL UNIT
+State proportions are calculated per donor x pathology-stage unit.
+Normal-vs-Early and Normal-vs-Advanced are donor-level unpaired tests.
+Early-vs-Advanced uses only donors observed in both stages.
+No cell-level P values are used for stage-composition inference.
+
+3DE
+Mapped for descriptive technology sensitivity only; no equal-strength Early-stage inference because the final strict-EC Early group has one donor.
+
+NEXT
+Upload GSE218166_step3B_REVIEW_SMALL.tar.gz.
+Then decide whether the discovery trajectory is externally supported as state-composition redistribution, partially supported, or not reproduced.
+Completed: 2026-08-14 15:20:08 

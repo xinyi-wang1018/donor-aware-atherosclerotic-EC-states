@@ -1,0 +1,4 @@
+"analysis_set","definition","n_cells","role"
+"Main_strict_EC","EC_recluster==2 AND inclusive_EC_support AND no hard nonEC conflict",1334,"PRIMARY downstream Normal-Early-Advanced validation"
+"Ultra_strict_EC","EC_recluster==2 AND canonical_EC_support AND no hard nonEC conflict",848,"Sensitivity analysis for maximal identity purity"
+"Expanded_sensitivity_EC","EC_recluster in {2,3} AND inclusive_EC_support AND no hard nonEC conflict",2536,"Sensitivity analysis testing whether borderline EC-like cluster 3 changes conclusions"

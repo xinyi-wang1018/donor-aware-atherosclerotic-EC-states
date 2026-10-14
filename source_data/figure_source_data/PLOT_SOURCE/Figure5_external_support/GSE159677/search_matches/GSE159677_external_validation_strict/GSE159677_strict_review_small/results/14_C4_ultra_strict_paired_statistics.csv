@@ -1,0 +1,3 @@
+"feature","n_pairs","mean_AC_minus_PA","median_AC_minus_PA","paired_Cohen_dz","wilcoxon_p","expected_direction","n_pairs_in_expected_direction","fraction_in_expected_direction","P1_AC_minus_PA","P2_AC_minus_PA","P3_AC_minus_PA"
+"C4_ECM_remodeling_primary",3,0.229188754789176,0.271843190094349,0.58941381334485,0.422678074170635,"AC>PA",2,0.666666666666667,0.594944771039709,0.271843190094349,-0.179221696766529
+"C4_broad_ECM_sensitivity",3,0.171891566091882,0.203882392570761,0.58941381334485,0.422678074170635,"AC>PA",2,0.666666666666667,0.446208578279782,0.203882392570761,-0.134416272574897

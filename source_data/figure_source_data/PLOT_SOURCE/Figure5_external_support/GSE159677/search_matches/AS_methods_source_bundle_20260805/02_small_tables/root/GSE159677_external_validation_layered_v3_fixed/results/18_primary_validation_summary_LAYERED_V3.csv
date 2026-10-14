@@ -1,0 +1,6 @@
+"validation_item","expected_direction","n_eligible_pairs","mean_AC_minus_PA","paired_Cohen_dz","n_pairs_in_expected_direction","fraction_in_expected_direction","evidence_grade"
+"C7_homeostatic_protection","PA>AC",3,-0.105290675049329,-1.38939071305993,3,1,"directionally_consistent_all_3_eligible_pairs"
+"C3_ANGPT2_PGF_activation","AC>PA",3,0.398421501449691,1.32923429420575,3,1,"directionally_consistent_all_3_eligible_pairs"
+"C1_C5_inflammatory_adhesion","AC>PA",3,-0.136631571337076,-0.661549757708541,1,0.333333333333333,"not_consistent"
+"C2_vascular_remodeling","AC>PA",3,0.599902615836236,0.922096784470219,2,0.666666666666667,"partially_consistent_2_of_3_eligible_pairs"
+"C4_ECM_remodeling_primary","AC>PA",3,0.265076939134584,2.12685793225593,3,1,"directionally_consistent_all_3_eligible_pairs"

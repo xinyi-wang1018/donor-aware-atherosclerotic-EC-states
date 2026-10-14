@@ -1,0 +1,180 @@
+nohup: ignoring input
+============================================================
+GSE159677 strict independent external validation
+Start: Fri Jul 31 17:27:07 CST 2026
+BASE: /root/GSE159677_external_validation_strict
+============================================================
+Using aggregate archive: /root/GSE159677_external_validation/input/GSE159677_AGGREGATEMAPPED-tisCAR6samples_featurebcmatrixfiltered.tar.gz
+Reading aggregate matrix:
+  matrix:   /root/GSE159677_external_validation_strict/aggregate_matrix/outs/filtered_feature_bc_matrix/matrix.mtx.gz
+  features: /root/GSE159677_external_validation_strict/aggregate_matrix/outs/filtered_feature_bc_matrix/features.tsv.gz
+  barcodes: /root/GSE159677_external_validation_strict/aggregate_matrix/outs/filtered_feature_bc_matrix/barcodes.tsv.gz
+            used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   3648535 194.9    6878825  367.4   6878825  367.4
+Vcells 116433673 888.4  340822743 2600.3 419896768 3203.6
+Fontconfig warning: using without calling FcInit()
+Running Harmony by patient_id ...
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 7/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 8/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 8 iterations
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+Strict EC clusters: 2
+Warning message:
+At least one sample has fewer than 30 strict EC; inspect 04_strict_EC_counts_by_sample.csv 
+Warning: Different features in new layer data than already exists for scale.data
+Running Harmony by patient_id ...
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+****************************1413exists, retrying for cluster 54 1.82285
+**********************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+Warning message:
+Signatures with fewer than 3 detected genes: C3_ANGPT2_PGF_activation 
+Loading discovery EC reference: /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+null device 
+          1 
+GSE159677 strict independent external validation completed.
+Full cells after QC: 47760
+Strict EC cells: 2908
+Strict full-atlas EC clusters: 2
+Harmony full atlas by patient_id: TRUE
+Harmony strict EC by patient_id: TRUE
+Reference mapping uncertain fraction: 0.2648
+edgeR completed: TRUE
+Primary evidence is based on strict EC, patient-paired direction, effect size, and pseudobulk results.
+C7 arterial identity is reported separately and has no prespecified PA-versus-AC direction.
+C4 primary score excludes COL1A1/COL1A2/COL3A1; broad ECM and ultra-strict analyses are sensitivity checks.
+PA is proximal adjacent diseased artery, not a truly healthy control. 
+============================================================
+STRICT ANALYSIS COMPLETED: Fri Jul 31 17:32:32 CST 2026
+
+请下载并上传给我的小型结果包：
+  /root/GSE159677_external_validation_strict/GSE159677_strict_review_small.tar.gz
+
+大型对象和全基因结果仅保留在服务器，暂时不要上传：
+  /root/GSE159677_external_validation_strict/objects/
+
+核心结果目录：
+  /root/GSE159677_external_validation_strict/results
+
+优先检查：
+  /root/GSE159677_external_validation_strict/results/README_STRICT_results.txt
+  /root/GSE159677_external_validation_strict/results/02_cluster_purity_audit_STRICT.csv
+  /root/GSE159677_external_validation_strict/results/04_strict_EC_counts_by_sample.csv
+  /root/GSE159677_external_validation_strict/results/08_paired_program_statistics_STRICT.csv
+  /root/GSE159677_external_validation_strict/results/11_key_gene_paired_statistics_STRICT.csv
+  /root/GSE159677_external_validation_strict/results/14_C4_ultra_strict_paired_statistics.csv
+  /root/GSE159677_external_validation_strict/results/16_strict_EC_edgeR_key_genes.csv
+  /root/GSE159677_external_validation_strict/results/17_primary_validation_summary_STRICT.csv
+  /root/GSE159677_external_validation_strict/results/08_strict_EC_UMAP_sample_Harmony.png
+  /root/GSE159677_external_validation_strict/results/10_strict_EC_purity_marker_dotplot.png
+  /root/GSE159677_external_validation_strict/results/13_strict_EC_state_marker_dotplot.png
+  /root/GSE159677_external_validation_strict/results/14_paired_program_scores_STRICT.png
+  /root/GSE159677_external_validation_strict/results/18_C4_ultra_strict_robustness.png
+============================================================

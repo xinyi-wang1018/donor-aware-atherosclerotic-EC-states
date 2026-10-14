@@ -1,0 +1,7 @@
+tech,disease_stage,n_cells,nCount_median,nFeature_median,percent_mt_median,percent_mt_Q95,nFeature_Q05,nFeature_Q95
+FL,Normal,7032,368842.5,3913.5,0,0,1708,9057.15
+FL,Early,5936,243903.5,3832,0,0,1534.25,13364.25
+FL,Advanced,9023,369482,4643,0,0,1965,14917
+3DE,Normal,3883,22001,1634,0,0,626,3443.8
+3DE,Advanced,1871,27460,1683,0,0,634.5,3537
+3DE,Early,154,41793.5,1755.5,0,0,687.5,3285.9

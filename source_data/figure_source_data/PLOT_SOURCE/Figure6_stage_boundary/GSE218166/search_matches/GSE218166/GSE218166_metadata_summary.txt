@@ -1,0 +1,125 @@
+============================================================
+GSE218166 METADATA SUMMARY
+============================================================
+
+############################################################
+FILE: GSM6735811_CellInfo.csv.gz
+############################################################
+
+---- Level_nature2016 ----
+   9023 Advanced
+   7032 Normal
+   5936 Early
+
+---- Process_nature2016 ----
+   4125 3d
+   3886 1b
+   3146 1a
+   3098 2a
+   3059 2c
+   2838 2b
+   1298 2d
+    541 3a
+
+---- Individual ----
+   2563 FL_CA112
+   2548 FL_CA139
+   2253 FL_CA133
+   2101 FL_CA113
+   1979 FL_CA124
+   1957 FL_CA116
+   1853 FL_CA127
+   1682 FL_CA109
+   1668 FL_CA108
+   1581 FL_CA107
+   1038 FL_CA129
+    768 FL_CA128
+
+---- position ----
+   8980 RCA
+   8483 LAD
+   4528 LCX
+
+---- tech ----
+  21991 FL
+
+---- Individual + position + Process + Level + tech ----
+    808 FL_CA107	LAD	1a	Normal	FL
+    773 FL_CA107	RCA	1a	Normal	FL
+    486 FL_CA108	LAD	1b	Normal	FL
+    672 FL_CA108	LCX	1b	Normal	FL
+    510 FL_CA108	RCA	1a	Normal	FL
+    435 FL_CA109	LAD	1b	Normal	FL
+    728 FL_CA109	LCX	1b	Normal	FL
+    519 FL_CA109	RCA	1b	Normal	FL
+    983 FL_CA112	LAD	2b	Early	FL
+    773 FL_CA112	LCX	2a	Early	FL
+    807 FL_CA112	RCA	2a	Early	FL
+   1055 FL_CA113	LAD	1a	Normal	FL
+   1046 FL_CA113	RCA	1b	Normal	FL
+    938 FL_CA116	LAD	2a	Early	FL
+   1019 FL_CA116	RCA	2c	Advanced	FL
+    908 FL_CA124	LAD	2c	Advanced	FL
+    527 FL_CA124	LCX	2b	Early	FL
+    544 FL_CA124	RCA	2b	Early	FL
+    423 FL_CA127	LAD	3d	Advanced	FL
+    678 FL_CA127	LCX	3d	Advanced	FL
+    752 FL_CA127	RCA	3d	Advanced	FL
+    250 FL_CA128	LAD	3d	Advanced	FL
+    518 FL_CA128	RCA	2c	Advanced	FL
+    458 FL_CA129	LAD	3d	Advanced	FL
+    580 FL_CA129	RCA	2a	Early	FL
+    955 FL_CA133	LAD	3d	Advanced	FL
+   1298 FL_CA133	RCA	2d	Advanced	FL
+    784 FL_CA139	LAD	2b	Early	FL
+    541 FL_CA139	LCX	3a	Advanced	FL
+    609 FL_CA139	LCX	3d	Advanced	FL
+    614 FL_CA139	RCA	2c	Advanced	FL
+
+############################################################
+FILE: GSM6753958_sepDE3_CellInfo.csv.gz
+############################################################
+
+---- Level_nature2016 ----
+   3883 Normal
+   1871 Advanced
+    154 Early
+
+---- Process_nature2016 ----
+   3883 1b
+   1871 2d
+    154 2a
+
+---- Individual ----
+   1156 P2
+   1073 P6
+   1008 P7
+    997 P5
+    861 P8
+    522 P3
+    291 P4
+
+---- position ----
+   2911 RCA
+   1741 LAD
+   1256 LCX
+
+---- tech ----
+   5908 3DE
+
+---- Individual + position + Process + Level + tech ----
+    292 P2	LAD	2d	Advanced	3DE
+    154 P2	LCX	2a	Early	3DE
+    430 P2	LCX	1b	Normal	3DE
+    280 P2	RCA	2d	Advanced	3DE
+    251 P3	LAD	1b	Normal	3DE
+    271 P3	RCA	1b	Normal	3DE
+    291 P4	LCX	2d	Advanced	3DE
+    136 P5	LAD	1b	Normal	3DE
+    381 P5	LCX	1b	Normal	3DE
+    480 P5	RCA	1b	Normal	3DE
+    556 P6	LAD	1b	Normal	3DE
+    517 P6	RCA	1b	Normal	3DE
+   1008 P7	RCA	2d	Advanced	3DE
+    506 P8	LAD	1b	Normal	3DE
+    355 P8	RCA	1b	Normal	3DE

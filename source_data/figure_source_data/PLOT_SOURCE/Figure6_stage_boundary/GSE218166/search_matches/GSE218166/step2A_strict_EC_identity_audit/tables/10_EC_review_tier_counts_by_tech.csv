@@ -1,0 +1,9 @@
+"tech","EC_review_tier","n_cells","fraction_within_tech"
+"3DE","Not_candidate",5189,0.878300609343263
+"3DE","C_lineage_candidate",373,0.0631347325660122
+"3DE","B_lineage_supported",159,0.0269126607989167
+"3DE","A_ultra_strict",187,0.0316519972918077
+"FL","Not_candidate",17687,0.804283570551589
+"FL","C_lineage_candidate",1773,0.0806238915920149
+"FL","B_lineage_supported",1187,0.0539766268018735
+"FL","A_ultra_strict",1344,0.0611159110545223

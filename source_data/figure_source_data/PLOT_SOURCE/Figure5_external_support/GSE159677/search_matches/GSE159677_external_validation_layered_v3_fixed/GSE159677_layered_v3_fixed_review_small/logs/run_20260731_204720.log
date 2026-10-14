@@ -1,0 +1,77 @@
+============================================================
+GSE159677 V3 layered EC external validation (FIXED)
+Start: Fri Jul 31 20:47:20 CST 2026
+Full object: /root/GSE159677_external_validation_strict/objects/GSE159677_full_Harmony_strictECflag.rds
+Reference:   /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+Output:      /root/GSE159677_external_validation_layered_v3_fixed
+============================================================
+V3 candidate EC clusters: 17, 2, 3, 9
+Fontconfig warning: using without calling FcInit()
+Warning: Scaling data with a low number of groups may produce misleading results
+Warning: Different features in new layer data than already exists for scale.data
+Running Harmony by patient_id ...
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+************************************409exists, retrying for cluster 71 1.82608
+**************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+GSE159677 V3 layered EC validation completed (FIXED).
+Full cells: 47760
+Tier 1 classical EC: 3904
+Tier 2 transition candidates: 1690
+Tier 2 low-marker EC: 81
+Expanded EC total: 5675
+Eligible patient pairs (both PA and AC >=30 expanded EC): 3/3
+Eligible patients: P1, P2, P3
+Harmony on expanded EC: TRUE
+Formal paired edgeR completed: TRUE
+Reference mapping uncertain fraction: 0.105
+Tier definitions were fixed without using C2 or C4 validation genes.
+Tier 1 is high-specificity; Tier 2 is a sensitivity layer and does not prove EndMT.
+Patient, not cell, is the biological replicate.
+PA is adjacent diseased artery, not a truly healthy control. 

@@ -1,0 +1,15 @@
+REFERENCE SET NOTES
+
+Literature-derived sets:
+- Slenders2025_EndoMT73: exact 73-gene mid-stage EndoMT core set from the previously supplied supplementary workbook.
+- Wu2026_CXCL12_SULF1_trajectory: conservative proxy based on positive markers of E09-arteries-ENPP2 and E10-arteries-SULF1 relative to the E08-CXCL12 root-like state; not a complete pseudotime DEG list.
+- Wu2026_E08/E09/E10: cluster marker sets supplied in the prior literature audit pack.
+- Botts2026_ERG_EndMT: curated genes explicitly reported/plotted for ERG-loss/EndMT/ECM phenotypes; not a complete DEG set.
+- Yao2026_EC5_markers: 487 positive EC5 markers extracted directly from Supplementary Table 3 of 41556_2026_2022_MOESM3_ESM.xlsx using cluster == EC5, adjusted P < 0.05 and avg_logFC > 0.
+
+CURATED_* sets:
+These are transparent functional marker panels added only to broaden the prespecified biological audit. They are NOT claimed to be complete published signatures or MSigDB pathways. If msigdbr is installed on the server, the script also adds selected standardized Hallmark gene sets.
+
+Primary rank:
+signed_sqrtF = sign(logFC) * sqrt(edgeR quasi-likelihood F statistic).
+This uses the full frozen 3,375-gene tested universe and does not depend on the logFC > 0.5 C3-up cutoff.

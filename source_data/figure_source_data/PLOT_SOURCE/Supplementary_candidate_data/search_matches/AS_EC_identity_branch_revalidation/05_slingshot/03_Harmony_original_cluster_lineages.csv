@@ -1,0 +1,4 @@
+lineage,sequence,endpoint,has_L1_exact,has_L1_core,has_L2,space,cluster_definition
+Lineage1,7->5->1->2,2,FALSE,FALSE,FALSE,Harmony,original_EC_cluster
+Lineage2,7->5->3,3,FALSE,FALSE,FALSE,Harmony,original_EC_cluster
+Lineage3,7->5->4,4,FALSE,FALSE,FALSE,Harmony,original_EC_cluster

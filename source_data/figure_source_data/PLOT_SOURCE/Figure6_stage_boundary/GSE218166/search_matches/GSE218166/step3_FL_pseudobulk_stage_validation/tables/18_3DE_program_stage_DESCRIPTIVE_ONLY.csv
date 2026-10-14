@@ -1,0 +1,13 @@
+"program","disease_stage","n_donors","mean_score","median_score"
+"C2_late_vascular_remodeling","Normal",5,0.376903839879171,0.737900851651022
+"C2_late_vascular_remodeling","Early",1,-0.0325086404810826,-0.0325086404810826
+"C2_late_vascular_remodeling","Advanced",3,-0.617336852971591,-0.569890814576083
+"C3_early_activation","Normal",5,0.177955192618535,0.129214703005584
+"C3_early_activation","Early",1,0.59758148710783,0.59758148710783
+"C3_early_activation","Advanced",3,-0.495785816733501,-0.503071928215946
+"C7_homeostatic_arterial","Normal",5,0.0191794245742832,0.026047356454299
+"C7_homeostatic_arterial","Early",1,-0.929831443459869,-0.929831443459869
+"C7_homeostatic_arterial","Advanced",3,0.277978106862818,0.399575626017449
+"ECM_remodeling_support","Normal",5,0.210547473070451,0.0627541021601229
+"ECM_remodeling_support","Early",1,-1.17723630547886,-1.17723630547886
+"ECM_remodeling_support","Advanced",3,0.0414996467088692,0.189890644933281

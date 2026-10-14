@@ -1,0 +1,8 @@
+RNA_PCA: success
+Harmony: success
+Seurat_RPCA: FAILED - The total size of the 10 globals exported for future expression ('FUN()') is 628.51 MiB. This exceeds the maximum allowed size 500.00 MiB per plan() argument 'maxSizeOfObjects'. This limit is set to protect against transfering too large objects to parallel workers by mistake, which may not be intended and could be costly. See help("future.globals.maxSize", package = "future") for how to adjust or remove the default threshold via an R option The three largest globals are 'FUN' (314.27 MiB of class 'function'), 'object.list' (314.22 MiB of class 'list') and 'NNHelper' (9.68 KiB of class 'function')
+Seurat_CCA: success
+
+RNA_PCA: C7->C5->C1->C2
+Harmony: C7->C5->C1->C2
+Seurat_CCA: C7->C3->C5->C1->C2

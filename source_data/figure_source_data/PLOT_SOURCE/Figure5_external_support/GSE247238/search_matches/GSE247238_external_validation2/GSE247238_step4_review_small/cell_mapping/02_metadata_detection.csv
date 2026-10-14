@@ -1,0 +1,5 @@
+field,selected_column
+patient,patient
+condition,condition
+EC_annotation,final_low_level_celltype
+barcode,obs_names

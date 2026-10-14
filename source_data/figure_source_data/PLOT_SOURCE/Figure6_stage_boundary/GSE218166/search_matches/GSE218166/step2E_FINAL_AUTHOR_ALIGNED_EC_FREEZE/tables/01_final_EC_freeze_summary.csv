@@ -1,0 +1,4 @@
+"analysis_set","n_cells","definition","downstream_role"
+"MAIN_A_STRICT_EC",1451,"A_relative_strict_EC: author EC anchor >0; canonical EC >0.25; EC margin >0.25","PRIMARY Normal-Early-Advanced validation"
+"EXPANDED_AB_EC",3328,"A_relative_strict_EC + B_relative_EC","Sensitivity analysis"
+"EXPLORATORY_REMODELING_CANDIDATE",1997,"C_remodeling_EC_candidate only; NOT primary identity set","Exploratory state mapping only"

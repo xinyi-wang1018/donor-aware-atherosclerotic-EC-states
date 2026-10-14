@@ -1,0 +1,37 @@
+============================================================
+GSE218166 STEP3C SOFT REFERENCE-STATE SIMILARITY
+============================================================
+Run time: 2026-08-14 20:56:38
+
+WHY THIS ANALYSIS
+Step3B strict hard mapping assigned only 16.1% of MAIN FL ECs.
+Step3C therefore uses continuous state-similarity scores for ALL final ECs,
+without lowering hard-label thresholds or forcing cells into a discrete state.
+
+NON-CIRCULARITY
+Excluded from mapping: ANGPT2, LOX, CTHRC1, SULF1
+Forbidden features used: NO
+
+TWO INDEPENDENT SOFT MEASURES
+1. Seurat full prediction probability for each reference state.
+2. Independent query-to-reference centroid Pearson correlation for each state.
+
+BIOLOGICAL EVIDENCE
+C7 similarity decreases in Early | transfer MAIN=0.0053 | transfer EXP=-0.0035 | centroid MAIN=0.0066 | centroid EXP=-0.0002 | not_consistent_across_all_four_checks
+C7 similarity decreases in Advanced | transfer MAIN=0.0020 | transfer EXP=0.0000 | centroid MAIN=0.0128 | centroid EXP=0.0072 | not_consistent_across_all_four_checks
+C3 similarity increases in Early | transfer MAIN=0.0736 | transfer EXP=0.0480 | centroid MAIN=0.0159 | centroid EXP=0.0100 | direction_consistent_across_MAIN_EXPANDED_and_two_methods
+C5 transition similarity increases in Early | transfer MAIN=-0.0007 | transfer EXP=0.0036 | centroid MAIN=0.0501 | centroid EXP=0.0417 | not_consistent_across_all_four_checks
+C1C2 similarity increases in Advanced vs Normal | transfer MAIN=-0.1837 | transfer EXP=-0.1611 | centroid MAIN=-0.0634 | centroid EXP=-0.0492 | not_consistent_across_all_four_checks
+C1C2 similarity increases in Advanced vs matched Early | transfer MAIN=-0.1385 | transfer EXP=-0.1773 | centroid MAIN=-0.0359 | centroid EXP=-0.0348 | not_consistent_across_all_four_checks
+
+INTERPRETATION RULE
+A stage-composition signal is considered robust only when its expected direction is consistent
+in MAIN strict EC, EXPANDED A+B EC, Seurat transfer probability, and centroid correlation.
+Statistical significance is supportive but is not used to override direction discordance.
+
+3DE
+Computed descriptively only because Early has one donor after strict EC freezing.
+
+NEXT
+Upload GSE218166_step3C_REVIEW_SMALL.tar.gz.
+This will finalize whether GSE218166 supports the discovery trajectory fully, partially, or only at the state-marker level.

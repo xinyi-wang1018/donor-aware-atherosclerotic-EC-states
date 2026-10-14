@@ -1,0 +1,7 @@
+"contrast","n_paired_patients","status"
+"C3_vs_C7",4,"ok"
+"C5_vs_C3",0,"paired patients insufficient"
+"C5_vs_C7",0,"paired patients insufficient"
+"Late_vs_C5",0,"paired patients insufficient"
+"Late_vs_C3",4,"ok"
+"Late_vs_C7",4,"ok"

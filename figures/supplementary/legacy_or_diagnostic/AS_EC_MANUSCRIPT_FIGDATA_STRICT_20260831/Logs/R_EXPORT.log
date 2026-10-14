@@ -1,0 +1,32 @@
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1B_atlas_umap.csv [205909 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1C_sample_celltype_counts.csv [650 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1D_major_lineage_marker_dotplot.csv [308 rows]
+[PASS] FIGURE1_ATLAS | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2_hard_count_QC.csv [8 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2A_strict_source_EC_umap_RECOMPUTED.csv [6152 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2B_strict_source_state_counts_RECOMPUTED.csv [12 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2C_strict_source_marker_dotplot_RECOMPUTED.csv [174 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2B_strict_source_donor_state_coverage_RECOMPUTED.csv [138 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2D_program_score_state_summary_RECOMPUTED.csv [36 rows]
+[FAIL] FIGURE2_STRICT_SOURCE_EC | object 'strict_md_cache' not found | 
+TRACEBACK-like context not available in R tryCatch; module continued.
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_donor_hard_QC.csv [3 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3A_C3_C7_design_RECOMPUTED.csv [24 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_edgeR_count_QC.csv [3 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_keygene_QC.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3B_C3_vs_C7_edgeR_RECOMPUTED.csv [3375 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3C_C3_up_RECOMPUTED.csv [458 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3D_12donor_gene_logCPM_RECOMPUTED.csv [264 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4C_4gene_donor_effects_RECOMPUTED.csv [48 rows]
+[PASS] FIGURE3_STRICT_DONOR_C3_C7 | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_cell_QC.csv [1 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_donor_QC.csv [2 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_keygene_QC.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4D_strict_arterial_edgeR_keygenes_RECOMPUTED.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4D_strict_arterial_9donor_RECOMPUTED.csv [36 rows]
+[PASS] FIGURE4_STRICT_ARTERIAL | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure4/F4E_literature_overlap_summary_FROZEN.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure4/F4E_literature_union_coverage_FROZEN.csv [3 rows]
+[PASS] FIGURE4_LITERATURE_FROZEN_SUMMARY | completed | 
+
+R exporter finished. Review EXPORT_STATUS.tsv and Diagnostics before plotting.

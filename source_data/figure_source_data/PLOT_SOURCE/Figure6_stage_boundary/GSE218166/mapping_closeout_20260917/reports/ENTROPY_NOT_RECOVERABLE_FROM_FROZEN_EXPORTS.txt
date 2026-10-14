@@ -1,0 +1,3 @@
+No per-cell table containing >=2 state-level probability columns was found in the searched GSE218166/mapping exports.
+Therefore mapping entropy was NOT reconstructed or approximated from transfer margin/correlation.
+Existing diagnostics (assignment coverage, transfer score/margin, centroid correlation, donor-level continuous similarity, and MAIN/EXPANDED concordance) remain the frozen evidence.

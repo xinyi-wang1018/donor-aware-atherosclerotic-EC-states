@@ -1,0 +1,9 @@
+parameter,value
+panEC_score_q25,-0.3336378484964371
+fibro_score_q90,0.38218438625335693
+smc_score_q90,0.36070317327976226
+immune_score_q90,0.1512463346123695
+epithelial_score_q90,-0.14214424788951874
+minimum_panEC_genes_detected,2.0
+minimum_identity_margin,-0.25
+maximum_immune_genes_detected,1.0

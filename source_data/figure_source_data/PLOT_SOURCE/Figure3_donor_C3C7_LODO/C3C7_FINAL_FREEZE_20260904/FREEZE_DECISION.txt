@@ -1,0 +1,10 @@
+DECISION_CODE=FINAL_FREEZE_DESIGN_MIN10
+
+FINAL FREEZE: 3375 tested genes / 941 FDR<0.05 / 458 C3-up / 421 C3-down.
+Old manuscript values 4,491 / 1,068 / 574 are retired because they were not reproduced by the audited strict-source object.
+Primary donor inclusion remains >=5 C3 cells AND >=5 C7 cells per donor, retaining 12 paired donors.
+Gene filtering is fixed at edgeR filterByExpr(design=paired design, min.count=10, min.total.count=15, large.n=10, min.prop=0.7).
+The paired edgeR model is ~ donor_factor + condition, testing C3 vs C7 with glmQLFit/glmQLFTest.
+C3-up is defined as FDR<0.05 and logFC>0.5.
+Cell-count threshold sensitivity is repeated at 5/10/20/30 cells per state using the same min.count=10 gene-filter rule.
+Thresholds 20/30 may be non-estimable if fewer than 3 paired donors remain; report that explicitly rather than forcing a model.

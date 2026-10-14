@@ -1,0 +1,5 @@
+program	requested	detected	n_requested	n_detected
+arterial_core	GJA4,GJA5,SEMA3G	GJA4,GJA5,SEMA3G	3	3
+arterial_project	GJA4,GJA5,SEMA3G,EFNB2,SOX17,HEY1,CXCL12	GJA4,GJA5,SEMA3G,EFNB2,SOX17,HEY1,CXCL12	7	7
+venous_core	ACKR1,NR2F2	ACKR1,NR2F2	2	2
+capillary_core	RGCC,CA4	RGCC,CA4	2	2

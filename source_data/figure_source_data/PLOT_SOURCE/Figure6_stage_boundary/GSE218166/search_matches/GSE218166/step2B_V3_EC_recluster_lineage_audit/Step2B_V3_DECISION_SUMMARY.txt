@@ -1,0 +1,21 @@
+============================================================
+GSE218166 Step 2B V3 - STANDALONE HARMONY
+============================================================
+Run time: 2026-08-13 16:09:33
+ALL Step2A cells examined: 27899
+Stage-blind EC candidates retained: 7867
+Cells rescued from Step2A Not_candidate: 4803
+EC reclusters: 9
+Clustering reduction: harmony.ec
+
+DESIGN RULES
+1. Disease stage was NOT used to select EC cells.
+2. Step2A A/B/C tiers were not treated as final truth.
+3. Absolute EC marker evidence can rescue Step2A false negatives.
+4. Mural/fibroblast programs are not automatic exclusions.
+5. Hard immune/T-NK/epithelial/platelet-RBC conflicts are excluded.
+6. Harmony corrects tech only, using the standalone embedding API.
+
+NEXT
+Upload GSE218166_step2B_V3_REVIEW_SMALL.tar.gz.
+Final EC freeze will be performed in Step2C before stage testing.

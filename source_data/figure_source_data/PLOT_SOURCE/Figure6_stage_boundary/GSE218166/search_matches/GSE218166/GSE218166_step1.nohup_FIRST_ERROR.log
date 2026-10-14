@@ -1,0 +1,58 @@
+nohup: ignoring input
+============================================
+GSE218166 STEP1 START
+Threads: 32 
+============================================
+
+
+============================================
+Reading: GSM6735811_GeneMatrix_counts.csv.gz 
+============================================
+Dense table dimensions: 59320 x 21992 
+Duplicated gene names: 0 
+Number of cells: 21991 
+Converting to sparse matrix...
+Sparse dimensions: 59320 x 21991 
+Non-zero entries: 116152749 
+Saved cache: /root/GSE218166/step1_build_and_broad_cluster/cache/FL_counts_sparse.rds 
+
+============================================
+Reading: GSM6753958_sepDE3_GeneMatrix_counts.csv.gz 
+============================================
+Dense table dimensions: 59320 x 5909 
+Duplicated gene names: 0 
+Number of cells: 5908 
+Converting to sparse matrix...
+Sparse dimensions: 59320 x 5908 
+Non-zero entries: 10648429 
+Saved cache: /root/GSE218166/step1_build_and_broad_cluster/cache/3DE_counts_sparse.rds 
+
+Checking gene order...
+Gene rows identical: YES
+
+Combining FL + 3DE matrices...
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   3637555  194.3    6628231   354.0    5113880   273.2
+Vcells 196686517 1500.6 1318604788 10060.2 2789898523 21285.3
+Combined matrix: 56608 genes x 27899 cells
+
+Reading metadata: GSM6735811_CellInfo.csv.gz 
+
+Reading metadata: GSM6753958_sepDE3_CellInfo.csv.gz 
+            used   (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells   3670158  196.1    6628231  354.0    5113880   273.2
+Vcells 197198144 1504.6 1054883831 8048.2 2789898523 21285.3
+Metadata rows: 27899 
+Matrix cells: 27899 
+Cells missing metadata: 0 
+Metadata missing matrix: 0 
+
+Creating Seurat object...
+            used   (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells   3697190  197.5    6628231  354.0    6628231   354.0
+Vcells 197521347 1507.0  843907065 6438.5 2789898523 21285.3
+Seurat object: 56608 genes x 27899 cells
+Error in `[.data.table`(qc_dt, , .(n_cells = .N, nCount_median = median(nCount_RNA),  : 
+  Column 3 of result for group 3 is type 'integer' but expecting type 'double'. Column types must be consistent for each group.
+Calls: [ -> [.data.table
+Execution halted

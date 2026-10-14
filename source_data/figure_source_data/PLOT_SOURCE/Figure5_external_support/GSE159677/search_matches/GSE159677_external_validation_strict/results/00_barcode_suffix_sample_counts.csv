@@ -1,0 +1,7 @@
+"gem_suffix","sample_id","patient_id","condition","tissue","GSM","cells_in_processed_matrix"
+1,"P1_PA","P1","PA","proximal_adjacent","GSM4837524",3716
+2,"P1_AC","P1","AC","atherosclerotic_core","GSM4837523",11015
+3,"P2_PA","P2","PA","proximal_adjacent","GSM4837526",5523
+4,"P2_AC","P2","AC","atherosclerotic_core","GSM4837525",15960
+5,"P3_PA","P3","PA","proximal_adjacent","GSM4837528",3379
+6,"P3_AC","P3","AC","atherosclerotic_core","GSM4837527",12388

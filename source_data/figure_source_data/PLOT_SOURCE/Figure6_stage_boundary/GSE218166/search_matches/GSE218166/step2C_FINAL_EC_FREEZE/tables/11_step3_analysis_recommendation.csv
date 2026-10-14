@@ -1,0 +1,4 @@
+"analysis","recommended_dataset","rule"
+"Primary three-stage validation","FL","Use donor x disease-stage pseudobulk; account for repeated donors across stages"
+"Independent technology sensitivity","3DE","Do NOT use as equal-strength three-stage test if Early replication/cell count is sparse; use limited sensitivity only"
+"Cell-level descriptive visualization","FL + 3DE shown separately","Never treat cells as biological replicates"

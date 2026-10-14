@@ -1,0 +1,75 @@
+[2026-08-01 14:54:57] Step 1B finalize repair started
+
+===== FINAL VERIFIED MAPPING =====
+patient seq_piece condition_code expression_condition  barcode_vs_expression_agree expression_confidence  expression_spearman  expression_assignment_margin
+   CAR1      Seq1         Plaque               Plaque                         True single_condition_only                  NaN                           NaN
+   CAR2      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR2      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR3      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR3      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR4      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR4      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR5      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR5      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR6      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR6      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR7      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR7      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR8      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR8      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+   CAR9      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+   CAR9      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+  CAR10      Seq1        Control               Plaque                        False                failed                  NaN                           NaN
+  CAR10      Seq2         Plaque              Control                        False                failed                  NaN                           NaN
+
+GSE247238 Step 1B expression-based mapping verification completed.
+GEO samples evaluated: 19
+GEO patients evaluated: 10
+Paired patients: 9 (CAR2, CAR3, CAR4, CAR5, CAR6, CAR7, CAR8, CAR9, CAR10)
+CAR1 contains only one GEO sample and must not enter paired inference.
+Barcode mapping and expression mapping agree for all paired samples: False
+Low-confidence patients requiring manual review: none
+Number of mapping-disagreement rows: 18
+
+Decision rule:
+- Use 04_final_verified_sample_mapping.csv as the sample mapping for subsequent analysis.
+- Keep barcode_assignment_margin and expression_assignment_margin as separate quantities.
+- Do not include CAR11-CAR17 because they are not present in the 19 GEO raw matrices.
+- If barcode_vs_expression_agree is False or expression_confidence is low_review_required,
+  exclude that patient from paired inference until manual review is completed.
+
+Disagreement rows:
+patient seq_piece condition_code expression_condition
+   CAR2      Seq1        Control               Plaque
+   CAR2      Seq2         Plaque              Control
+   CAR3      Seq1        Control               Plaque
+   CAR3      Seq2         Plaque              Control
+   CAR4      Seq1        Control               Plaque
+   CAR4      Seq2         Plaque              Control
+   CAR5      Seq1        Control               Plaque
+   CAR5      Seq2         Plaque              Control
+   CAR6      Seq1        Control               Plaque
+   CAR6      Seq2         Plaque              Control
+   CAR7      Seq1        Control               Plaque
+   CAR7      Seq2         Plaque              Control
+   CAR8      Seq1        Control               Plaque
+   CAR8      Seq2         Plaque              Control
+   CAR9      Seq1        Control               Plaque
+   CAR9      Seq2         Plaque              Control
+  CAR10      Seq1        Control               Plaque
+  CAR10      Seq2         Plaque              Control
+
+============================================================
+修复完成，不需要重新运行耗时的表达矩阵计算。
+
+请下载并上传：
+/root/GSE247238_external_validation2/GSE247238_step1B_expression_mapping_verification_results.tar.gz
+
+服务器下载命令：
+sz /root/GSE247238_external_validation2/GSE247238_step1B_expression_mapping_verification_results.tar.gz
+
+最重要文件：
+/root/GSE247238_external_validation2/04_mapping_expression_verification/04_final_verified_sample_mapping.csv
+/root/GSE247238_external_validation2/04_mapping_expression_verification/05_mapping_verification_summary.txt
+============================================================
+[2026-08-01 14:54:57] Step 1B finalize repair completed

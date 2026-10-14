@@ -1,0 +1,8 @@
+========== EC STATE-SCORING VALIDATION SUMMARY ==========
+Input high-confidence EC object: /root/AS_EC_highconfidence/AS_EC_highconfidence_Harmony_umap_clustered.rds
+Output state-scored EC object: /root/AS_EC_state_scoring/AS_EC_highconfidence_state_scored.rds
+High-confidence EC cells: 6720
+EC state groups: ECM_remodeling_EndMT_candidate, IFN_MHCII_EC, activated_angiogenic_EC, arterial_like_EC, cycling_EC, inflammatory_EC, lymphatic_EC, metabolic_EC, rare_unresolved_EC, vascular_EC, venous_microvascular_EC
+Scores are mean log-normalized expression of curated marker modules.
+EndMT-like score is a programme score and does not alone prove a lineage transition.
+=========================================================

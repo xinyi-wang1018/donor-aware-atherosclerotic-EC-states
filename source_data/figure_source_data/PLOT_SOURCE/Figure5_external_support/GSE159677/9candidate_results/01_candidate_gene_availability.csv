@@ -1,0 +1,11 @@
+"gene","role","matched_feature","present_in_object"
+"TGFBR3","early_candidate","TGFBR3",TRUE
+"SMAD1","early_candidate","SMAD1",TRUE
+"SOX4","early_candidate","SOX4",TRUE
+"HIF1A","early_candidate","HIF1A",TRUE
+"ANGPT2","early_candidate","ANGPT2",TRUE
+"NAMPT","early_candidate","NAMPT",TRUE
+"THBS1","early_candidate","THBS1",TRUE
+"CTHRC1","early_candidate","CTHRC1",TRUE
+"LOX","early_candidate","LOX",TRUE
+"SULF1","late_SULF1_anchor","SULF1",TRUE

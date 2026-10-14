@@ -1,0 +1,6 @@
+mapped_state,n_pairs,median_Control_fraction,median_Plaque_fraction,median_difference_Plaque_minus_Control,n_Plaque_higher,n_Plaque_lower,wilcoxon_statistic,p_two_sided,FDR_two_sided
+C7_quiescent,9,0.05732484076433121,0.28846153846153844,0.08333333333333331,8,0,0.0,0.0078125,0.0390625
+C3_early_activation,9,0.03821656050955414,0.045454545454545456,0.0,3,3,8.0,0.6875,1.0
+C5_transition,9,0.0,0.0,0.0,2,3,7.0,1.0,1.0
+C1C2_late_remodeling,9,0.5,0.2727272727272727,-0.16666666666666669,2,6,3.0,0.0390625,0.09765625
+C4_independent_ECM,9,0.07692307692307693,0.08333333333333333,-0.005288711635165599,3,5,18.0,1.0,1.0

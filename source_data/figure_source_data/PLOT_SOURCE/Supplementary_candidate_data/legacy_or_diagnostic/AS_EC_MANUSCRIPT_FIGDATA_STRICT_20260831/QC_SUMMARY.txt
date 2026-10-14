@@ -1,0 +1,19 @@
+============================================================
+CURRENT MANUSCRIPT FIGURE-DATA PACKAGE QC
+Generated: Mon Aug 31 22:53:48 CST 2026
+============================================================
+
+R module status:
+"module"	"status"	"message"	"output"
+"FIGURE1_ATLAS"	"PASS"	"completed"	""
+"FIGURE2_STRICT_SOURCE_EC"	"FAIL"	"object 'strict_md_cache' not found"	""
+"FIGURE3_STRICT_DONOR_C3_C7"	"PASS"	"completed"	""
+"FIGURE4_STRICT_ARTERIAL"	"PASS"	"completed"	""
+"FIGURE4_LITERATURE_FROZEN_SUMMARY"	"PASS"	"completed"	""
+
+DO_NOT_PLOT flags:
+/root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure3/DO_NOT_PLOT_QC_FAILED.txt
+
+Missing explicitly requested copied sources:
+
+Deprecated 14-donor/165 files remaining:

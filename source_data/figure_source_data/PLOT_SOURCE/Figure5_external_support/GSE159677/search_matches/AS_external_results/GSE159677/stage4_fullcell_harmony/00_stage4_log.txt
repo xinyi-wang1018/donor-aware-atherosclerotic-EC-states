@@ -1,0 +1,58 @@
+===== GSE159677 STAGE 4 V2: FULL-CELL HARMONY AND PRELIMINARY ANNOTATION =====
+Start: 2026-07-29 13:22:15 
+Input: /root/AS_external_results/GSE159677/stage3_doublet/GSE159677_qc_doublet_clean_singlets.rds 
+Output: /root/AS_external_results/GSE159677/stage4_fullcell_harmony 
+Seurat: 5.5.0 
+Harmony: 2.0.5 
+
+RNA layers before JoinLayers: counts.1, counts.2, counts.3, counts.4, counts.5, counts.6 
+Joining multiple RNA layers...
+RNA layers after JoinLayers: counts 
+
+Cells: 44130 
+Genes: 33538 
+Samples: P1_AC, P1_PA, P2_AC, P2_PA, P3_AC, P3_PA 
+
+Normalizing RNA counts...
+Selecting variable genes...
+Scaling variable genes and regressing mitochondrial percentage...
+Running PCA...
+Running Harmony by biological sample...
+Initializing centroids
+Running UMAP and graph clustering...
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9574
+Number of communities: 12
+Elapsed time: 8 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9358
+Number of communities: 20
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9203
+Number of communities: 23
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9089
+Number of communities: 26
+Elapsed time: 9 seconds

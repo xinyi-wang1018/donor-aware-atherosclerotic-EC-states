@@ -1,0 +1,149 @@
+{
+  "name": "expat",
+  "version": "2.8.1",
+  "build": "hecca717_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "expat-2.8.1-hecca717_1.conda",
+  "md5": "e211a78613b9d50a096644b97cede8f7",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/expat-2.8.1-hecca717_1.conda",
+  "sha256": "bc1e8177a4ebbbfcda98b6f4a1575f3337e69f0d2f1025a84570533ca27b89eb",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libexpat 2.8.1 hecca717_1",
+    "libgcc >=14"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1781203608158,
+  "size": 147797,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/root/miniconda3/pkgs/expat-2.8.1-hecca717_1.conda",
+  "extracted_package_dir": "/root/miniconda3/pkgs/expat-2.8.1-hecca717_1",
+  "files": [
+    "bin/xmlwf",
+    "include/expat.h",
+    "include/expat_config.h",
+    "include/expat_external.h",
+    "lib/cmake/expat-2.8.1/expat-config-version.cmake",
+    "lib/cmake/expat-2.8.1/expat-config.cmake",
+    "lib/cmake/expat-2.8.1/expat-noconfig.cmake",
+    "lib/cmake/expat-2.8.1/expat.cmake",
+    "lib/libexpat.a",
+    "lib/libexpat.so",
+    "lib/pkgconfig/expat.pc",
+    "share/doc/expat/AUTHORS",
+    "share/doc/expat/changelog",
+    "share/man/man1/xmlwf.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/xmlwf",
+        "path_type": "hardlink",
+        "sha256": "85d8ee31f00f7c7ab72f4ad2c6efcbc870fdab06d5d6ce0bdbfbb8bfbe5e0b26",
+        "size_in_bytes": 46088,
+        "sha256_in_prefix": "85d8ee31f00f7c7ab72f4ad2c6efcbc870fdab06d5d6ce0bdbfbb8bfbe5e0b26"
+      },
+      {
+        "_path": "include/expat.h",
+        "path_type": "hardlink",
+        "sha256": "52d756026bf09befdb211c453e2009a646d6c6b519e6885e971b2550396619fb",
+        "size_in_bytes": 45224,
+        "sha256_in_prefix": "52d756026bf09befdb211c453e2009a646d6c6b519e6885e971b2550396619fb"
+      },
+      {
+        "_path": "include/expat_config.h",
+        "path_type": "hardlink",
+        "sha256": "4eec9d1f46f31a8cf88ea6604b3e05933b38e9372e346c8340c4d41f8b5227b7",
+        "size_in_bytes": 4175,
+        "sha256_in_prefix": "4eec9d1f46f31a8cf88ea6604b3e05933b38e9372e346c8340c4d41f8b5227b7"
+      },
+      {
+        "_path": "include/expat_external.h",
+        "path_type": "hardlink",
+        "sha256": "6eb9cf931ecc6710c90e4b08ac1c973096729e4c1bb01ac10d787017d2540fd4",
+        "size_in_bytes": 6213,
+        "sha256_in_prefix": "6eb9cf931ecc6710c90e4b08ac1c973096729e4c1bb01ac10d787017d2540fd4"
+      },
+      {
+        "_path": "lib/cmake/expat-2.8.1/expat-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "534fa43af580d4d4101ee6db184dccfe5b30ad1bff5d27d4ba24578234613e1c",
+        "size_in_bytes": 2762,
+        "sha256_in_prefix": "534fa43af580d4d4101ee6db184dccfe5b30ad1bff5d27d4ba24578234613e1c"
+      },
+      {
+        "_path": "lib/cmake/expat-2.8.1/expat-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "33708544410c5b5fc7d1a25d1700804719deb4e4cb57358d4d9d2e7328418bcb",
+        "size_in_bytes": 3637,
+        "sha256_in_prefix": "33708544410c5b5fc7d1a25d1700804719deb4e4cb57358d4d9d2e7328418bcb"
+      },
+      {
+        "_path": "lib/cmake/expat-2.8.1/expat-noconfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "1c1c564e24b3c1d40805359e1d04367d777b5e5cb9bc37d7e7a65d8bbba746cb",
+        "size_in_bytes": 844,
+        "sha256_in_prefix": "1c1c564e24b3c1d40805359e1d04367d777b5e5cb9bc37d7e7a65d8bbba746cb"
+      },
+      {
+        "_path": "lib/cmake/expat-2.8.1/expat.cmake",
+        "path_type": "hardlink",
+        "sha256": "861fd3e8d6ab95b5a4cfad1779367553b1275339d475b9089bc1e1e4a03a737d",
+        "size_in_bytes": 4135,
+        "sha256_in_prefix": "861fd3e8d6ab95b5a4cfad1779367553b1275339d475b9089bc1e1e4a03a737d"
+      },
+      {
+        "_path": "lib/libexpat.a",
+        "path_type": "hardlink",
+        "sha256": "168e05088991914a59a5c1c7c1d02667f077a0354ecbf4188fdaf42b5123cdf0",
+        "size_in_bytes": 347918,
+        "sha256_in_prefix": "168e05088991914a59a5c1c7c1d02667f077a0354ecbf4188fdaf42b5123cdf0"
+      },
+      {
+        "_path": "lib/libexpat.so",
+        "path_type": "softlink",
+        "sha256": "fd944ced8a4ca463f4c480da105e1119267ac3011bf14083d9e5861520cec66b",
+        "size_in_bytes": 195520
+      },
+      {
+        "_path": "lib/pkgconfig/expat.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/expat-split_1781203475628/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "3cf50a7158b41758fbda48552a66e8ac6c87d56c7e0a4daa8c3864a55fba7075",
+        "size_in_bytes": 528,
+        "sha256_in_prefix": "f11846e575d53a28ab12324e4b692c1073d348c68f7a170e7e14407bc7d356da"
+      },
+      {
+        "_path": "share/doc/expat/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877",
+        "size_in_bytes": 142,
+        "sha256_in_prefix": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877"
+      },
+      {
+        "_path": "share/doc/expat/changelog",
+        "path_type": "hardlink",
+        "sha256": "82307b275bae813eb68a6099568f6627904c48f9a16f984c6c274c1de3fa6d5c",
+        "size_in_bytes": 102031,
+        "sha256_in_prefix": "82307b275bae813eb68a6099568f6627904c48f9a16f984c6c274c1de3fa6d5c"
+      },
+      {
+        "_path": "share/man/man1/xmlwf.1",
+        "path_type": "hardlink",
+        "sha256": "5bb336ad133d2856495f407bd554829214023ff2a1d41edef6b5f304d5e771b9",
+        "size_in_bytes": 11510,
+        "sha256_in_prefix": "5bb336ad133d2856495f407bd554829214023ff2a1d41edef6b5f304d5e771b9"
+      }
+    ]
+  },
+  "link": {
+    "source": "/root/miniconda3/pkgs/expat-2.8.1-hecca717_1",
+    "type": 1
+  }
+}

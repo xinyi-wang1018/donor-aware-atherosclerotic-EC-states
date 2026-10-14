@@ -1,0 +1,59 @@
+===== GSE159677 STAGE 4 V3: RESUME FROM HARMONY =====
+Start: 2026-07-29 13:30:31 
+Input: /root/AS_external_results/GSE159677/stage4_fullcell_harmony/objects/GSE159677_checkpoint_after_Harmony.rds 
+Output: /root/AS_external_results/GSE159677/stage4_fullcell_harmony 
+
+Loaded cells: 44130 
+Loaded genes: 33538 
+Harmony dimensions: 40 
+
+Running UMAP and graph clustering...
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9574
+Number of communities: 12
+Elapsed time: 8 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9358
+Number of communities: 20
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9203
+Number of communities: 23
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9089
+Number of communities: 26
+Elapsed time: 9 seconds
+Saved UMAP/clustering checkpoint.
+Calculating preliminary major-lineage scores...
+Finding positive markers for each cluster...
+
+Candidate endothelial clusters: 13, 18, 2 
+Candidate endothelial cells: 5702 
+
+Final cluster count: 23 
+Saved formal full-cell object.
+IMPORTANT: preliminary labels must be manually reviewed before final EC extraction.
+
+===== STAGE 4 V3 RESUME COMPLETE =====
+End: 2026-07-29 13:38:15 

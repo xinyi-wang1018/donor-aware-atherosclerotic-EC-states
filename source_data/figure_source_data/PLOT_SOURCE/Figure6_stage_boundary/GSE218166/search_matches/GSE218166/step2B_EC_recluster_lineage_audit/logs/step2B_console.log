@@ -1,0 +1,11 @@
+============================================================
+GSE218166 Step 2B: EC reclustering + lineage-conflict audit
+Start: 2026-08-13 15:43:08 
+Input: /root/GSE218166/step2A_strict_EC_identity_audit/objects/GSE218166_step2A_ABC_candidate_EC.rds 
+============================================================
+
+Input candidate cells: 5023 
+Genes: 56608 
+Tech: FL, 3DE 
+
+Running Harmony by tech only...

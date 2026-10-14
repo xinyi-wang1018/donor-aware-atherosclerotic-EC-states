@@ -1,0 +1,11 @@
+LODO prediction source: /root/AS_EC_TEACHER_P0_20260920/AS_EC_TEACHER_P0_REPAIR_RESULTS_20260920/root/AS_EC_TEACHER_P0_REPAIR_20260920/01_LODO/02_LODO_cell_predictions.csv
+Held-out donors: 12
+Accuracy median [range]: 94.1% [89.7%–100.0%]
+Balanced accuracy median [range]: 95.9% [92.0%–100.0%]
+C3 recall median [range]: 91.8% [84.0%–100.0%]
+C7 recall median [range]: 100.0% [100.0%–100.0%]
+High-confidence coverage median [range]: 74.9% [42.6%–94.6%]
+High-confidence accuracy median [range]: 100.0% [97.6%–100.0%]
+
+Recommended wording:
+Leave-one-donor-out reclassification was used as a robustness analysis based on frozen C3/C7 state labels, rather than as an independent external validation.

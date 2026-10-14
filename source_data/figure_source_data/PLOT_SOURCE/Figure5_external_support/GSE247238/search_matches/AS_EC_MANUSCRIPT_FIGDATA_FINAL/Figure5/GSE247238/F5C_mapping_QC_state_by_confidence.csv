@@ -1,0 +1,16 @@
+mapped_state,mapping_confidence,n_cells,fraction_of_all_EC
+C1C2_late_remodeling,high,539,0.3866571018651363
+C1C2_late_remodeling,low_reject,21,0.015064562410329985
+C1C2_late_remodeling,moderate,35,0.025107604017216643
+C3_early_activation,high,73,0.05236728837876614
+C3_early_activation,low_reject,69,0.04949784791965567
+C3_early_activation,moderate,63,0.04519368723098996
+C4_independent_ECM,high,61,0.04375896700143472
+C4_independent_ECM,low_reject,96,0.06886657101865136
+C4_independent_ECM,moderate,119,0.08536585365853659
+C5_transition,high,2,0.0014347202295552368
+C5_transition,low_reject,67,0.04806312769010043
+C5_transition,moderate,19,0.013629842180774749
+C7_quiescent,high,118,0.08464849354375897
+C7_quiescent,low_reject,57,0.040889526542324243
+C7_quiescent,moderate,55,0.03945480631276901

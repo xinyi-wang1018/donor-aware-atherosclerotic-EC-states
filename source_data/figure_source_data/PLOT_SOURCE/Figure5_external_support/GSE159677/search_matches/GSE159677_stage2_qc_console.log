@@ -1,0 +1,42 @@
+nohup: ignoring input
+===== GSE159677 STAGE 2: SAMPLE-WISE QC FILTERING =====
+Start: 2026-07-29 02:03:45 
+Input: /root/AS_external_results/GSE159677/stage1_raw_qc/GSE159677_raw_unfiltered_with_metadata.rds 
+Output: /root/AS_external_results/GSE159677/stage2_qc_filtered 
+
+Sample-specific QC summary:
+ sample_id patient_id region n_before min_nFeature_RNA max_nFeature_RNA
+     P1_AC         P1     AC    11015              200          3692.86
+     P1_PA         P1     PA     3716              200          3247.85
+     P2_AC         P2     AC    15960              200          3937.00
+     P2_PA         P2     PA     5523              200          3197.90
+     P3_AC         P3     AC    12388              200          4354.13
+     P3_PA         P3     PA     3379              200          3505.22
+ min_nCount_RNA max_nCount_RNA max_percent_mt n_after_qc retain_rate
+            500       20717.08             20      10381   0.9424421
+            500       13274.35             20       3193   0.8592573
+            500       38229.74             20      15114   0.9469925
+            500       35667.12             20       5047   0.9138150
+            500       21964.50             20      11485   0.9271069
+            500       13446.66             20       2957   0.8751110
+Fontconfig warning: using without calling FcInit()
+
+Total cells before QC: 51981 
+Total cells after QC: 48177 
+Overall retain rate: 0.9268 
+
+Saved outputs:
+/root/AS_external_results/GSE159677/stage2_qc_filtered/00_stage2_qc_log.txt 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/01_sample_specific_qc_thresholds_and_retention.csv 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/02_cell_level_qc_status.csv.gz 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/03_cell_counts_before_after_qc.csv 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/04_nFeature_RNA_after_qc.png 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/05_nCount_RNA_after_qc_log10.png 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/06_percent_mt_after_qc.png 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/07_qc_retention_rate_by_sample.png 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/GSE159677_qc_filtered_before_doublet.rds 
+/root/AS_external_results/GSE159677/stage2_qc_filtered/GSE159677_qc_filtered_split_by_sample.rds 
+
+IMPORTANT: this object is before doublet removal.
+===== STAGE 2 COMPLETE =====
+End: 2026-07-29 02:03:58 

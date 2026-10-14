@@ -1,0 +1,23 @@
+[1] "C.UTF-8"
+表达矩阵：32393 genes × 4704 cells
+运行C3连续性校正场景：All_unadjusted
+运行C3连续性校正场景：All_identity_adjusted
+运行C3连续性校正场景：Proximity50
+运行C3连续性校正场景：Proximity30
+运行C3连续性校正场景：Proximity50_highArterialC7
+
+============================================================
+第7步C3连续性校正候选筛选完成
+============================================================
+输出目录：/root/AS_EC_19day_sprint/07_C3_continuity_adjusted_candidates
+
+重点文件：
+1. 07_scenario_status.csv
+2. 07_C3_to_C7_proximity_summary.csv
+3. 07_all_candidates_continuity_refined.csv
+4. 07_top10_final_candidates.csv
+5. 07_top20_final_candidates.csv
+6. 07_unadjusted_vs_identity_adjusted_logFC.png
+7. 07_candidate_scenario_logFC_heatmap.png
+8. 07_final_candidate_evidence_heatmap.png
+9. 07_C3_continuity_adjusted_report.txt

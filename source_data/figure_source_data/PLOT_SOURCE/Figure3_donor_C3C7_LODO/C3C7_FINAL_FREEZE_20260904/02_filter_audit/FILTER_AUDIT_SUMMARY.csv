@@ -1,0 +1,6 @@
+"filter_name","filter_mode","min_count","min_total_count","large_n","min_prop","min_cells_per_state","n_paired_donors","tested_genes","fdr_sig","c3_up","c3_down","robust_used","status"
+"design_min5_total15","design",5,15,10,0.7,5,12,6556,1248,732,479,TRUE,"PASS"
+"design_min10_total15","design",10,15,10,0.7,5,12,3375,941,458,421,TRUE,"PASS"
+"design_min5_total10","design",5,10,10,0.7,5,12,6560,1251,735,479,TRUE,"PASS"
+"group_min5_total15","group",5,15,10,0.7,5,12,3064,727,337,341,TRUE,"PASS"
+"group_min10_total15","group",10,15,10,0.7,5,12,1460,515,200,234,TRUE,"PASS"

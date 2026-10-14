@@ -1,0 +1,6 @@
+"validation_item","expected_direction","mean_AC_minus_PA","n_pairs_in_expected_direction","fraction_in_expected_direction","evidence_grade"
+"C7_root_quiescent","PA>AC",0.00626069757476425,2,0.666666666666667,"partially_consistent_2_of_3"
+"C3_shared_activation_hub","AC>PA",-0.00137286625767613,2,0.666666666666667,"partially_consistent_2_of_3"
+"C1_C5_inflammatory_adhesion","AC>PA",-0.0766648519972208,0,0,"not_consistent"
+"C2_vascular_remodeling","AC>PA",0.0980907051655524,2,0.666666666666667,"partially_consistent_2_of_3"
+"C4_ECM_EndMT_like","AC>PA",-0.00697451546752442,2,0.666666666666667,"partially_consistent_2_of_3"

@@ -1,0 +1,3 @@
+DO NOT PLOT AS FINAL FIGURE 3/4 donor evidence.
+Recomputed strict-source C3-C7 results do not match frozen manuscript hard QC.
+Inspect Diagnostics/F3_donor_hard_QC.csv, F3_edgeR_count_QC.csv and F3_keygene_QC.csv.

@@ -1,0 +1,37 @@
+column,n_EC_like,n_unique_in_cohort,priority,selected
+final_low_level_celltype,1394,26,0,True
+final_high_level_celltype,1394,10,0,False
+background_fraction,0,10789,0,False
+cell_probability,0,3502,0,False
+droplet_efficiency,0,11200,0,False
+patient,0,10,0,False
+condition,0,2,0,False
+batch,0,4,0,False
+ribo_frac,0,10347,0,False
+mt_frac,0,8940,0,False
+original_sample,0,19,0,False
+scDblFinder.class,0,1,0,False
+scDblFinder.score,0,11142,0,False
+preparation_kit,0,2,0,False
+Age,0,9,0,False
+Sex,0,2,0,False
+Hypertension,0,2,0,False
+AHA classification,0,4,0,False
+Diabetes,0,2,0,False
+Smoking,0,3,0,False
+Dyslipidemia,0,2,0,False
+CHD,0,2,0,False
+BMI,0,10,0,False
+Statin,0,2,0,False
+seq_facility,0,1,0,False
+Symptomatic,0,2,0,False
+Rupture,0,2,0,False
+Stenosis_perc,0,7,0,False
+Height,0,7,0,False
+Weight,0,10,0,False
+Smoking_ever,0,2,0,False
+Myocardial infarction,0,3,0,False
+Atrial fibrillation,0,2,0,False
+PAD,0,2,0,False
+ASA_stadium,0,2,0,False
+Symptoms,0,3,0,False

@@ -1,0 +1,17 @@
+"donor_stage_unit","donor_id","disease_stage","tech","n_EC_cells","analysis_set","library_size"
+"FL_CA107__Normal","FL_CA107","Normal","FL",130,"MAIN_A_STRICT_EC",62630779
+"FL_CA108__Normal","FL_CA108","Normal","FL",41,"MAIN_A_STRICT_EC",20482335
+"FL_CA109__Normal","FL_CA109","Normal","FL",51,"MAIN_A_STRICT_EC",22392328
+"FL_CA112__Early","FL_CA112","Early","FL",189,"MAIN_A_STRICT_EC",56883325
+"FL_CA113__Normal","FL_CA113","Normal","FL",104,"MAIN_A_STRICT_EC",61555399
+"FL_CA116__Early","FL_CA116","Early","FL",110,"MAIN_A_STRICT_EC",33465619
+"FL_CA116__Advanced","FL_CA116","Advanced","FL",60,"MAIN_A_STRICT_EC",16976883
+"FL_CA124__Early","FL_CA124","Early","FL",13,"MAIN_A_STRICT_EC",8554258
+"FL_CA124__Advanced","FL_CA124","Advanced","FL",28,"MAIN_A_STRICT_EC",13050703
+"FL_CA127__Advanced","FL_CA127","Advanced","FL",115,"MAIN_A_STRICT_EC",53277059
+"FL_CA128__Advanced","FL_CA128","Advanced","FL",53,"MAIN_A_STRICT_EC",28588757
+"FL_CA129__Advanced","FL_CA129","Advanced","FL",38,"MAIN_A_STRICT_EC",10508893
+"FL_CA129__Early","FL_CA129","Early","FL",9,"MAIN_A_STRICT_EC",6708652
+"FL_CA133__Advanced","FL_CA133","Advanced","FL",63,"MAIN_A_STRICT_EC",31217671
+"FL_CA139__Early","FL_CA139","Early","FL",57,"MAIN_A_STRICT_EC",17762080
+"FL_CA139__Advanced","FL_CA139","Advanced","FL",94,"MAIN_A_STRICT_EC",35334591

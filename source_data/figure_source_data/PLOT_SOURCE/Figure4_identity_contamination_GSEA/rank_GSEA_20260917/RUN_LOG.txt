@@ -1,0 +1,52 @@
+AS EC rank-based GSEA
+Date: 2026-09-18 00:34:11.45895 
+Script: /root/AS_EC_RANK_GSEA_PACKAGE_20260917/run_rank_GSEA_20260917.R 
+
+Input: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_vs_C7_full_source_data.csv 
+Warning message:
+The `category` argument of `msigdbr()` is deprecated as of msigdbr 10.0.0.
+i Please use the `collection` argument instead. 
+msigdbr not installed; standardized Hallmark panel skipped 
+Gene sets retained with 5-500 tested genes: 15 
+Method: fgseaMultilevel 
+null device 
+          1 
+
+Significant sets FDR<0.05: 10 
+                          pathway       NES       PValue          FDR
+12             Wu2026_E08_markers -2.938860 9.484627e-33 1.422694e-31
+13             Wu2026_E09_markers -2.816513 8.705396e-27 6.529047e-26
+11 Wu2026_CXCL12_SULF1_trajectory -1.983234 5.105395e-12 2.552698e-11
+14             Wu2026_E10_markers  2.065610 1.066361e-08 3.998853e-08
+5    CURATED_arterial_homeostasis -2.199777 3.152876e-07 9.458627e-07
+1             Botts2026_ERG_EndMT -1.655600 2.421455e-03 6.053637e-03
+4   CURATED_angiogenic_activation  1.743879 2.960823e-03 6.344621e-03
+9         CURATED_senescence_SASP  1.636542 4.568385e-03 8.565721e-03
+7          CURATED_hypoxia_stress  1.645414 6.161175e-03 1.026863e-02
+8         CURATED_inflammatory_EC  1.551996 2.738709e-02 4.108063e-02
+   tested_set_size
+12             195
+13             181
+11             321
+14             140
+5               13
+1               60
+4               14
+9                6
+7                9
+8               11
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           leadingEdge
+12 SLC9A3R2;PLPP1;SEMA3G;ARL15;GLUL;GJA4;SRP14;SGK1;SOX17;JAM2;PPA1;FABP4;ATP13A3;SSUH2;ACE;JAG2;ADAMTS6;KLF2;CXCL12;PCSK5;PODXL;ADAM15;IFI27;ALPL;JAG1;OCIAD2;BTNL9;HEY1;RAMP2;MAP1B;CCDC3;CAVIN3;ATP1A1;RDX;PIK3R3;APOLD1;AIF1L;CSNK1A1;PREX1;EPAS1;STOM;PIK3C2A;SOX18;PLCB1;A2M;CRIP1;NEDD9;STMN1;KLF4;UTRN;FCN3;CRYBG3;TBC1D1;RBP7;AKAP13;IFITM1;SLC6A6;MAP4;CRIP2;UACA;MRPL33;PPP1R14A;ID1;ATP1B3;ICAM2;MSX1;ADCY4;EPS8;TSC22D1;IFITM3;NEBL;TSHZ2;LTBP1;DDIT4;ATP5PF;SOS1;LMNA;RHOC;TMSB10;PTP4A3;NOTCH4;CLIC3;CYYR1;LGALS3;RHOA;IFITM2;H3F3A;ESAM;KDR;SP110;TIMP3;TXNIP;SORBS2;PLS3;H3F3B;ADAMTS9;TCIM;ISG15;PNP
+13                                                                                                                        GJA5;FBLN5;PLPP1;SEMA3G;ARL15;VEGFC;GJA4;SRP14;SOX17;EFNB2;JAM2;PPA1;FABP4;EGFL8;FBLN2;ACE;JAG2;ADAMTS1;SAT1;KLF2;ATP2A3;CXCL12;PCSK5;HES4;ADAM15;IFI27;JAG1;HEY1;MAP1B;SYT1;THSD7A;CAVIN3;EMP1;PLLP;PIK3R3;APOLD1;TSPAN2;KCTD12;EPAS1;STOM;SOX18;A2M;STMN1;UTRN;GUCY1A1;STC1;S1PR1;RSPO3;FAM107A;NUDT4;IFITM1;FBN1;SRGN;PPP1R14A;CFAP36;IFI6;ATP1B3;ICAM2;MSX1;TSC22D1;IFITM3;ARGLU1;SWAP70;MAST4;DDIT4;PDCD4;RHOC;TMSB10;LRRFIP1;NOTCH4;IGFBP3;CYYR1;BHLHE40;IFITM2;MCTP1;ESAM;TIMP3;TXNIP
+11                                                                           GJA5;FBLN5;PLPP1;SEMA3G;ARL15;VEGFC;HEG1;GJA4;SRP14;SOX17;EFNB2;JAM2;PPA1;FABP4;EGFL8;FBLN2;ACE;JAG2;ADAMTS1;SAT1;ELN;KLF2;ATP2A3;CXCL12;PCSK5;HES4;ADAM15;IFI27;JAG1;PTPRB;HEY1;MAP1B;SYT1;THSD7A;CAVIN3;EMP1;PLLP;PIK3R3;APOLD1;TSPAN2;LTC4S;S100A4;KCTD12;EPAS1;STOM;SOX18;A2M;STMN1;UTRN;GUCY1A1;STC1;S1PR1;RSPO3;FAM107A;NUDT4;IFITM1;SULF1;FBN1;SRGN;PPP1R14A;CFAP36;IFI6;ATP1B3;ICAM2;MSX1;TSC22D1;IFITM3;ARGLU1;S100A6;SKIL;SWAP70;MAST4;DDIT4;PDCD4;RHOC;TMSB10;CFH;LRRFIP1;CYP1B1;NOTCH4;IGFBP3;CYYR1;BHLHE40;IFITM2;MCTP1;ESAM
+14                                                                                                                                                                                              CCL14;VWF;EFEMP1;SELP;THBS1;TPT1;IL1R1;NPC2;MMRN1;BMP4;TGFBR3;NUPR1;EEF1B2;CEBPD;LTBP2;ALDH1A3;FTL;CCN2;CTGF;SNHG29;FCGRT;IGFBP7;CRIM1;SERPINE1;CAVIN2;P4HB;CCNI;CLU;CD63;CCDC80;ESM1;POLR2L;TXNDC5;ACKR3;DKK3;TOMM7;S100A13;CTNNAL1;CST3;ALDH1A1;ITM2B;HSP90B1;BNIP3L;GJA1;CDKN1C;IER3;ACTN1;NFIA;HTRA1;SNTB2;TIMP1;NNMT;ID2;CCN1;PLCG2;OST4;SSR4;CD99.1;CANX;MALAT1;GSTP1;BGN;AAMDC;IGFBP2;TFPI;SERPINB1;NUCB2;TAGLN
+5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       GJA5;SEMA3G;GJA4;SOX17;EFNB2;KLF2;CXCL12;HEY1;KLF4;NOS3;NOTCH4
+1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      GJA5;FBLN5;VEGFC;HEG1;EFNB2;FBLN2;LIMS2;SMAD6;S100A4;KCTD12;NOS3;FAM107A;SULF1;HSPA12B;TEK;TMTC1;MMP2;NES;TIMP3
+4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 APLN;ADM;NRP2;ANGPT2;PGF;ROBO4;APLNR;ESM1;CXCR4;NRP1
+9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 CCL2;IGFBP7;SERPINE1
+7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ADM;ANGPT2;PGF;HIF1A;BNIP3L;ENO1
+8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         SELE;CCL2;TNFAIP3;HLA-DPB1;B2M;HLA-DRA;ICAM1
+[1] TRUE
+
+DONE
+Upload: /root/AS_EC_RANK_GSEA_20260917.tar.gz

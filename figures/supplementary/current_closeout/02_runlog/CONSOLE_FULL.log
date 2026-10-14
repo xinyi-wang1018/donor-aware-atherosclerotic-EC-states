@@ -1,0 +1,14 @@
+1441exists, retrying for cluster 53 1.88125
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+Warning messages:
+1: Different features in new layer data than already exists for scale.data 
+2: Different features in new layer data than already exists for scale.data 
+Warning: Layer counts isn't present in the assay object; returning NULL
+Warning messages:
+1: Different features in new layer data than already exists for scale.data 
+2: Different features in new layer data than already exists for scale.data 
+Trajectory sensitivity completed.
+Output: /root/AS_EC_TEACHER_P0_REPAIR_20260920/02_TRAJECTORY 

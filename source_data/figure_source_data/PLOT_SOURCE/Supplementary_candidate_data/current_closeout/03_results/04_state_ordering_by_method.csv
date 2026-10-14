@@ -1,0 +1,4 @@
+"method","order"
+"Harmony","C7->C5->C3->C1->C2"
+"RNA_PCA","C7->C5->C3->C1->C2"
+"Seurat_CCA","C7->C3->C5->C1->C2"

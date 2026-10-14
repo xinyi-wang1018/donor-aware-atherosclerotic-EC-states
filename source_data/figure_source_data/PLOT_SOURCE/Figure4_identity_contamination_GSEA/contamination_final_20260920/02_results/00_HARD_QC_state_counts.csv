@@ -1,0 +1,9 @@
+"metric","observed","expected","PASS"
+"strict_highconf",6152,6152,TRUE
+"strict_core",4435,4435,TRUE
+"C1",1440,1440,TRUE
+"C2",1181,1181,TRUE
+"C3",696,696,TRUE
+"C4",624,624,TRUE
+"C5",324,324,TRUE
+"C7",170,170,TRUE

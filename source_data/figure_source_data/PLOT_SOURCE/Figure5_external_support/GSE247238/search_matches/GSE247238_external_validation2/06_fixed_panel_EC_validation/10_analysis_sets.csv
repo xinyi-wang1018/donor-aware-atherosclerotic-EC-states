@@ -1,0 +1,5 @@
+analysis_set,n_patients,patients
+primary_all_9_mapped_pairs,9,CAR2;CAR3;CAR4;CAR5;CAR6;CAR7;CAR8;CAR9;CAR10
+mapping_sensitivity_CAR7_CAR10,4,CAR7;CAR8;CAR9;CAR10
+EC_count_sensitivity_both_ge10,5,CAR5;CAR6;CAR7;CAR9;CAR10
+combined_mapping_and_EC_ge10,3,CAR7;CAR9;CAR10

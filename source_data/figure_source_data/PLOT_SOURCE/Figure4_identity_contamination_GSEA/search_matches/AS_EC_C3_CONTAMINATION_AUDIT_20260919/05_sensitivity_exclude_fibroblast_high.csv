@@ -1,0 +1,11 @@
+"filter","gene","C3_n","C3_median","C3_mean"
+"exclude_fibroblast_high","ANGPT2",4093,0,0.00797551954159264
+"exclude_fibroblast_high","LOX",4093,0,0.000382318463805294
+"exclude_fibroblast_high","CTHRC1",4093,0,0.00173469478436349
+"exclude_fibroblast_high","SULF1",4093,0,0.00743855393454719
+"exclude_fibroblast_high","POSTN",4093,0,0.0107372627020446
+"exclude_fibroblast_high","SPARC",4093,0,0.0257647688980926
+"exclude_fibroblast_high","FN1",4093,0,0.56265716712997
+"exclude_fibroblast_high","COL6A2",4093,0,0.00412361622702313
+"exclude_fibroblast_high","ELN",4093,0,0.0103683991567952
+"exclude_fibroblast_high","MGP",4093,0,0.209754739749549

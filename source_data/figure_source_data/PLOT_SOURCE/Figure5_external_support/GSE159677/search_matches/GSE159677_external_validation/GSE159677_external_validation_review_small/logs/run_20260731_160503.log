@@ -1,0 +1,74 @@
+============================================================
+GSE159677 external validation from processed aggregate matrix
+Start: Fri Jul 31 16:05:03 CST 2026
+BASE: /root/GSE159677_external_validation
+============================================================
+Using aggregate archive: /root/GSE159677_external_validation/input/GSE159677_AGGREGATEMAPPED-tisCAR6samples_featurebcmatrixfiltered.tar.gz
+Extracted files:
+/root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/barcodes.tsv.gz	260 KB
+/root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/features.tsv.gz	300 KB
+/root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/matrix.mtx.gz	299940 KB
+Reading aggregate
+  matrix:   /root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/matrix.mtx.gz
+  features: /root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/features.tsv.gz
+  barcodes: /root/GSE159677_external_validation/aggregate_matrix/outs/filtered_feature_bc_matrix/barcodes.tsv.gz
+'as(<dgTMatrix>, "dgCMatrix")' is deprecated.
+Use 'as(., "CsparseMatrix")' instead.
+See help("Deprecated") and help("Matrix-deprecated").
+            used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   3642597 194.6    6862535  366.5   6862535  366.5
+Vcells 116431430 888.4  340816631 2600.3 419894714 3203.6
+Fontconfig warning: using without calling FcInit()
+Harmony failed; using PCA instead: argument 3 matches multiple formal arguments
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+Broad EC candidate clusters: 11, 13, 14, 22, 7, 8
+Warning: Different features in new layer data than already exists for scale.data
+EC Harmony failed; using PCA: argument 3 matches multiple formal arguments
+Loading discovery EC reference: /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+For a (much!) faster implementation of the Wilcoxon Rank Sum Test,
+(default method for FindMarkers) please install the presto package
+--------------------------------------------
+install.packages('devtools')
+devtools::install_github('immunogenomics/presto')
+--------------------------------------------
+After installation of presto, Seurat will automatically use the more 
+efficient implementation (no further action necessary).
+This message will be shown once per session
+null device 
+          1 
+GSE159677 independent external validation completed.
+Full cells after QC: 47760
+Broad EC candidate cells: 8972
+EC candidate clusters from full atlas: 11, 13, 14, 22, 7, 8
+Discovery reference available: TRUE
+State label transfer completed: TRUE
+Primary interpretation should emphasize paired direction consistency and effect size.
+With only three patient pairs, Wilcoxon P values have very limited resolution and should not be treated as the sole reliability criterion.
+PA is proximal adjacent diseased artery, not a truly healthy control. 
+============================================================
+COMPLETED: Fri Jul 31 16:14:01 CST 2026
+
+Primary result directory:
+  /root/GSE159677_external_validation/results
+
+Download this complete archive:
+  /root/GSE159677_external_validation/GSE159677_external_validation_results.tar.gz
+
+Most important files to inspect first:
+  /root/GSE159677_external_validation/results/README_results.txt
+  /root/GSE159677_external_validation/results/01_QC_summary_by_sample.csv
+  /root/GSE159677_external_validation/results/03_EC_candidate_cell_counts.csv
+  /root/GSE159677_external_validation/results/08_paired_program_statistics.csv
+  /root/GSE159677_external_validation/results/09_paired_state_proportion_statistics.csv
+  /root/GSE159677_external_validation/results/15_primary_validation_summary.csv
+  /root/GSE159677_external_validation/results/10_EC_UMAP_mapped_state.png
+  /root/GSE159677_external_validation/results/12_EC_state_marker_dotplot.png
+  /root/GSE159677_external_validation/results/13_paired_program_scores_PA_vs_AC.png
+  /root/GSE159677_external_validation/results/15_paired_mapped_state_proportions.png
+  /root/GSE159677_external_validation/results/16_key_gene_paired_expression.png
+  /root/GSE159677_external_validation/results/GSE159677_EC_external_validation.rds
+============================================================

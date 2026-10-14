@@ -1,0 +1,1 @@
+No text table with >=2 state-probability columns was found.

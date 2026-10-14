@@ -1,0 +1,13 @@
+C3-C7 FINAL donor-level freeze completed.
+Strict EC cells: 6152
+C3 cells: 696
+C7 cells: 170
+Primary paired donors at >=5 cells/state: 12
+Decision: FINAL_FREEZE_DESIGN_MIN10
+
+Read these first:
+1) FREEZE_DECISION.txt
+2) 02_filter_audit/FILTER_AUDIT_SUMMARY.csv
+3) 03_cell_threshold_sensitivity/CELL_THRESHOLD_SENSITIVITY_SUMMARY.csv
+4) 03_cell_threshold_sensitivity/CELL_THRESHOLD_KEY_GENES.csv
+5) 05_final_freeze/

@@ -1,0 +1,17 @@
+SEURAT CCA PROVENANCE AUDIT REPORT
+==================================
+
+Required final evidence:
+1) exact script that successfully ran Seurat CCA integration;
+2) successful log/output proving completion;
+3) sessionInfo from that successful run, or a controlled rerun that captures sessionInfo;
+4) no substitution with RPCA (RPCA previously failed due to future.globals size limit).
+
+Inspect first:
+- 01_candidates/candidate_rank.tsv
+- 02_exact_copies/copy_manifest.tsv
+- 03_logs/
+- 04_sessioninfo/
+
+If a historical run-specific sessionInfo is absent, do NOT invent it.
+Return this bundle to ChatGPT; the exact successful script can then be frozen and, if necessary, rerun once with sessionInfo capture.

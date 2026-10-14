@@ -1,0 +1,10 @@
+"donor_stage_unit","donor_id","disease_stage","tech","n_EC_cells","analysis_set","library_size"
+"P3__Normal","P3","Normal","3DE",23,"MAIN_A_STRICT_EC_3DE",1276781
+"P5__Normal","P5","Normal","3DE",51,"MAIN_A_STRICT_EC_3DE",1550377
+"P4__Advanced","P4","Advanced","3DE",11,"MAIN_A_STRICT_EC_3DE",559295
+"P7__Advanced","P7","Advanced","3DE",57,"MAIN_A_STRICT_EC_3DE",2366783
+"P8__Normal","P8","Normal","3DE",24,"MAIN_A_STRICT_EC_3DE",661355
+"P6__Normal","P6","Normal","3DE",74,"MAIN_A_STRICT_EC_3DE",1972107
+"P2__Normal","P2","Normal","3DE",27,"MAIN_A_STRICT_EC_3DE",1347072
+"P2__Early","P2","Early","3DE",8,"MAIN_A_STRICT_EC_3DE",469925
+"P2__Advanced","P2","Advanced","3DE",21,"MAIN_A_STRICT_EC_3DE",971253

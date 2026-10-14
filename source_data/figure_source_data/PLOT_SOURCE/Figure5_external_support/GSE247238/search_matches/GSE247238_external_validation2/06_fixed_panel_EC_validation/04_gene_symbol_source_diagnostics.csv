@@ -1,0 +1,14 @@
+identifier_source,n_unique_values,n_fixed_genes_found
+var_column:HGNC_NAME,28816,32
+var_names,28816,0
+var_column:gene_id,28816,0
+var_column:variances,19774,0
+var_column:variances_norm,18130,0
+var_column:means,5594,0
+var_column:n_cells_raw,4256,0
+var_column:n_cells_cellbender,4237,0
+var_column:highly_variable_rank,4001,0
+var_column:highly_variable,2,0
+var_column:highly_variable_4000,2,0
+var_column:feature_type,1,0
+var_column:genome,1,0

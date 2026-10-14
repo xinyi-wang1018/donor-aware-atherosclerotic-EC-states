@@ -1,0 +1,10 @@
+Python: 3.13.14
+scanpy               NOT_INSTALLED
+anndata              NOT_INSTALLED
+numpy                NOT_INSTALLED
+pandas               NOT_INSTALLED
+scipy                NOT_INSTALLED
+sklearn              NOT_INSTALLED
+harmonypy            NOT_INSTALLED
+scvi                 NOT_INSTALLED
+matplotlib           NOT_INSTALLED

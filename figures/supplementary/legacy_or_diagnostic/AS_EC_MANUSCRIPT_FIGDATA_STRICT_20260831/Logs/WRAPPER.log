@@ -1,0 +1,69 @@
+2026-08-31 22:51:43 | ============================================================
+2026-08-31 22:51:43 | CURRENT STRICT MANUSCRIPT FIGURE DATA EXPORT
+2026-08-31 22:51:43 | Output: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831
+2026-08-31 22:51:43 | ============================================================
+2026-08-31 22:51:43 | Running strict R exporter...
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1B_atlas_umap.csv [205909 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1C_sample_celltype_counts.csv [650 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure1/F1D_major_lineage_marker_dotplot.csv [308 rows]
+[PASS] FIGURE1_ATLAS | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2_hard_count_QC.csv [8 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2A_strict_source_EC_umap_RECOMPUTED.csv [6152 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2B_strict_source_state_counts_RECOMPUTED.csv [12 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2C_strict_source_marker_dotplot_RECOMPUTED.csv [174 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2B_strict_source_donor_state_coverage_RECOMPUTED.csv [138 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F2D_program_score_state_summary_RECOMPUTED.csv [36 rows]
+[FAIL] FIGURE2_STRICT_SOURCE_EC | object 'strict_md_cache' not found | 
+TRACEBACK-like context not available in R tryCatch; module continued.
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_donor_hard_QC.csv [3 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3A_C3_C7_design_RECOMPUTED.csv [24 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_edgeR_count_QC.csv [3 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3_keygene_QC.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3B_C3_vs_C7_edgeR_RECOMPUTED.csv [3375 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3C_C3_up_RECOMPUTED.csv [458 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F3D_12donor_gene_logCPM_RECOMPUTED.csv [264 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4C_4gene_donor_effects_RECOMPUTED.csv [48 rows]
+[PASS] FIGURE3_STRICT_DONOR_C3_C7 | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_cell_QC.csv [1 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_donor_QC.csv [2 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4_arterial_keygene_QC.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4D_strict_arterial_edgeR_keygenes_RECOMPUTED.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Diagnostics/F4D_strict_arterial_9donor_RECOMPUTED.csv [36 rows]
+[PASS] FIGURE4_STRICT_ARTERIAL | completed | 
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure4/F4E_literature_overlap_summary_FROZEN.csv [4 rows]
+WRITE /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure4/F4E_literature_union_coverage_FROZEN.csv [3 rows]
+[PASS] FIGURE4_LITERATURE_FROZEN_SUMMARY | completed | 
+
+R exporter finished. Review EXPORT_STATUS.tsv and Diagnostics before plotting.
+2026-08-31 22:53:43 | R exporter completed (see EXPORT_STATUS.tsv).
+2026-08-31 22:53:47 | No trustworthy existing C3 enrichment table found. Not fabricated.
+2026-08-31 22:53:47 | Searching for real literature-audit tables...
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 04_patient_pair_eligibility_V3.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 08_sample_program_scores_expanded_V3.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 10_paired_program_statistics_eligible_pairs_V3.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 16_mapped_state_counts_proportions_expanded_V3.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 02_sample_level_expression_expanded_EC.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 10_candidate_pseudobulk_logCPM_and_counts.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 11_candidate_edgeR_paired_AC_vs_PA.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 12_paired_statistics_pseudobulk_logCPM.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE159677] 13_final_candidate_validation_summary.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE247238] 17_candidate_state_edgeR_evidence_matrix_long.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE247238] 16_candidate_preSULF1_state_order_summary.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE247238] 02_candidate_SULF1_sensitivity_edgeR_long.csv
+2026-08-31 22:53:48 | COPIED [F5_GSE247238] 05_candidate_robustness_summary.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 05_MAIN_FL_mapping_confidence_by_stage.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 06_MAIN_FL_donor_stage_state_proportions_STRICT.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 08_MAIN_FL_state_proportion_stage_tests.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 16_primary_state_composition_evidence_summary.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 05_MAIN_FL_donor_stage_soft_state_scores.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 07_MAIN_FL_soft_state_stage_tests.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 09_soft_state_MAIN_vs_EXPANDED_concordance.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 10_primary_soft_state_evidence_summary.csv
+2026-08-31 22:53:48 | COPIED [F6_GSE218166] 11_3DE_donor_stage_soft_state_scores_DESCRIPTIVE_ONLY.csv
+2026-08-31 22:53:50 | ARCHIVE CREATED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831.tar.gz
+2026-08-31 22:53:50 | ============================================================
+2026-08-31 22:53:50 | DONE
+2026-08-31 22:53:50 | First inspect: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/QC_SUMMARY.txt
+2026-08-31 22:53:50 | Then inspect: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/README_FOR_CODEX.txt
+2026-08-31 22:53:50 | Package: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831.tar.gz
+2026-08-31 22:53:50 | ============================================================

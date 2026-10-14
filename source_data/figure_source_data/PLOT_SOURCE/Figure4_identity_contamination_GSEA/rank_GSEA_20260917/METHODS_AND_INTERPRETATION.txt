@@ -1,0 +1,9 @@
+RANK-BASED GSEA METHODS
+Input: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_vs_C7_full_source_data.csv
+Ranking statistic: sign(logFC) * sqrt(edgeR quasi-likelihood F).
+Enrichment engine: fgseaMultilevel
+msigdbr not installed; standardized Hallmark panel skipped
+Gene-set inclusion for testing: 5-500 genes overlapping the frozen 3,375-gene tested universe.
+Positive NES indicates enrichment toward C3-up end of the ranked list; negative NES indicates enrichment toward C7-up end.
+Literature reference sets and CURATED panels are documented in reference_sets/REFERENCE_SET_NOTES.txt.
+This analysis uses the complete ranked tested-gene universe and is independent of the logFC > 0.5 C3-up cutoff.

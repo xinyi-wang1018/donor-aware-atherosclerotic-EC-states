@@ -1,0 +1,15 @@
+"preliminary_major_celltype","region","Freq"
+"B_cell","AC",1857
+"Endothelial","AC",2888
+"Mast_cell","AC",442
+"Myeloid","AC",7202
+"NK_cell","AC",1732
+"Smooth_muscle","AC",6031
+"T_cell","AC",13285
+"B_cell","PA",513
+"Endothelial","PA",2814
+"Mast_cell","PA",75
+"Myeloid","PA",941
+"NK_cell","PA",702
+"Smooth_muscle","PA",3020
+"T_cell","PA",2628

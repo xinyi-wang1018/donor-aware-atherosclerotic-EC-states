@@ -1,0 +1,25 @@
+============================================================
+GSE218166 STEP2E FINAL AUTHOR-ALIGNED EC FREEZE
+============================================================
+Main A strict EC cells: 1451
+Expanded A+B EC cells: 3328
+Exploratory remodeling-C cells: 1997
+
+FINAL PRIMARY EC DEFINITION
+A_relative_strict_EC only.
+This requires positive author EC anchor, strong canonical EC score,
+and EC program dominance by >0.25 over the strongest competing non-EC program.
+
+IMPORTANT
+Disease stage was NOT used to define the final EC population.
+Broad cluster membership alone was NOT used as the final freeze rule.
+Cluster 18 is therefore only partly retained: EC-dominant cells are kept,
+while cells without sufficient EC dominance are excluded.
+
+FL primary three-stage adequacy: PASS
+3DE equal-strength three-stage adequacy: FAIL/WEAK
+
+NEXT
+Proceed to Step3 Normal-Early-Advanced validation using FL Main A strict EC.
+Repeat key endpoints in Expanded A+B EC as sensitivity.
+Use 3DE only as limited technology sensitivity if its Early group remains sparse.

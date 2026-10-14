@@ -1,0 +1,8 @@
+GSE247238 Step 1 metadata resolution completed.
+GEO samples: 19
+H5AD cells: 14641
+Detected patient column: patient
+Detected condition column: condition
+Barcode source: obs_names
+IMPORTANT: condition_code 的生物学含义必须结合 07 列说明和论文再次确认。
+不要在确认前把 Seq1/Seq2 或 D/H 直接写成 plaque/control。

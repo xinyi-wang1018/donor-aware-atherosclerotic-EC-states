@@ -1,0 +1,123 @@
+[2026-08-01 21:52:53] GSE247238 Step 4 started
+Reference: /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+External h5ad: /root/GSE247238_external_validation2/02_author_reference_metadata/scRNA_final_dataset/GRCh38-p14-Gencode_v44_with_intron_final_data.h5ad
+Output: /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk
+读取参考对象...
+Reference state model built from the 53-sample Seurat object.
+Reference cluster column: EC_cluster
+Reference cells used: 4704
+Classifier genes: 634
+States: C7_quiescent, C3_early_activation, C5_transition, C1C2_late_remodeling, C4_independent_ECM
+C1 and C2 were merged as C1C2_late_remodeling.
+C4 was retained as an independent ECM/venous-capillary-like decoy class.
+The original nine candidates and SULF1 were excluded from classifier features.
+Therefore, later candidate/SULF1 comparisons are not circularly defined by those genes. 
+/root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/01_map_external_cells_and_build_pseudobulk.py:700: FutureWarning: The method obsm_keys is deprecated and will be removed in the future. Use obsm instead of obsm_keys. (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`)
+  if "X_umap" in sub.obsm_keys():
+读取参考状态模型...
+读取GSE247238 h5ad元数据...
+检测列：patient=patient, condition=condition, EC=final_low_level_celltype, barcode=obs_names
+CAR1-CAR10作者注释EC数：1394
+原始计数来源：X; gene symbol来源：var_column:HGNC_NAME
+使用616个共享分类基因进行细胞状态映射...
+构建患者层面状态pseudobulk...
+生成状态映射图...
+GSE247238 Step 4 cell-level reference-state mapping completed.
+Patient column: patient
+Condition column: condition
+EC annotation column: final_low_level_celltype
+Barcode source: obs_names
+Raw-count source: X
+Gene-symbol source: var_column:HGNC_NAME
+Author-annotated EC cells in CAR1-CAR10: 1394
+Shared classifier genes: 616
+High-confidence mappings: 793
+Moderate-confidence mappings: 291
+Low/rejected mappings: 310
+Primary trajectory mappings: 904
+C4 independent/decoy mappings: 276
+
+Interpretation rules:
+1. The original nine candidates and SULF1 were excluded from classifier features.
+2. C4 is a separate decoy class and is not treated as a second arterial branch.
+3. Primary pseudobulk uses high/moderate-confidence mappings only.
+4. Cells are not statistical replicates; patient is the inferential unit.
+5. State-order precedence is cross-sectional support, not lineage tracing or causal timing.
+'as(<dgTMatrix>, "dgCMatrix")' is deprecated.
+Use 'as(., "CsparseMatrix")' instead.
+See help("Deprecated") and help("Matrix-deprecated").
+GSE247238 Step 4 patient-level mapped-state pseudobulk completed.
+Primary statistical unit: patient.
+Primary minimum cells per patient-state pseudobulk: 10
+
+State edgeR contrast availability:
+   contrast n_paired_patients                       status
+   C3_vs_C7                 4                           ok
+   C5_vs_C3                 0 paired patients insufficient
+   C5_vs_C7                 0 paired patients insufficient
+ Late_vs_C5                 0 paired patients insufficient
+ Late_vs_C3                 4                           ok
+ Late_vs_C7                 4                           ok
+
+Candidate state-order precedence relative to SULF1:
+   gene n_evaluable_patients n_earlier_than_SULF1 fraction_earlier_than_SULF1
+ TGFBR3                    2                    2                   1.0000000
+  SMAD1                    3                    3                   1.0000000
+   SOX4                    1                    1                   1.0000000
+  HIF1A                    3                    3                   1.0000000
+ ANGPT2                    4                    4                   1.0000000
+  NAMPT                    3                    1                   0.3333333
+  THBS1                    4                    4                   1.0000000
+ CTHRC1                    3                    3                   1.0000000
+    LOX                    4                    4                   1.0000000
+ n_same_as_SULF1 n_later_than_SULF1           state_order_support
+               0                  0   limited_directional_support
+               0                  0  moderate_state_order_support
+               0                  0 not_supported_or_insufficient
+               0                  0  moderate_state_order_support
+               0                  0    strong_state_order_support
+               2                  0 not_supported_or_insufficient
+               0                  0    strong_state_order_support
+               0                  0  moderate_state_order_support
+               0                  0    strong_state_order_support
+                                                                interpretation
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+ cross-sectional mapped-state precedence; not longitudinal timing or causality
+
+Interpretation limits:
+1. Mapped-state order supports transcriptional precedence but is not true longitudinal timing.
+2. A candidate earlier than SULF1 is not automatically a causal driver.
+3. C4 is excluded from the arterial trajectory and retained as an independent decoy state.
+4. Low-confidence cell mappings do not enter the primary pseudobulk analysis.
+5. edgeR results require both effect direction and patient consistency; FDR alone is not sufficient. 
+
+============================================================
+GSE247238 Step 4 完成。
+
+请优先下载并上传“小型审核包”：
+/root/GSE247238_external_validation2/GSE247238_step4_reference_state_mapping_pseudobulk_REVIEW_SMALL.tar.gz
+
+服务器下载命令：
+sz /root/GSE247238_external_validation2/GSE247238_step4_reference_state_mapping_pseudobulk_REVIEW_SMALL.tar.gz
+
+若需要保存全部逐细胞映射和完整结果，再下载：
+/root/GSE247238_external_validation2/GSE247238_step4_reference_state_mapping_pseudobulk_FULL.tar.gz
+
+服务器下载命令：
+sz /root/GSE247238_external_validation2/GSE247238_step4_reference_state_mapping_pseudobulk_FULL.tar.gz
+
+最优先查看：
+1. /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/03_patient_pseudobulk/16_candidate_preSULF1_state_order_summary.csv
+2. /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/03_patient_pseudobulk/11_candidate_SULF1_state_contrast_edgeR.csv
+3. /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/02_cell_mapping/09_state_proportion_paired_statistics.csv
+4. /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/02_cell_mapping/06_mapping_QC_state_by_confidence.csv
+5. /root/GSE247238_external_validation2/08_reference_state_mapping_pseudobulk/03_patient_pseudobulk/README_patient_pseudobulk_and_preSULF1.txt
+============================================================
+[2026-08-01 21:53:31] GSE247238 Step 4 completed

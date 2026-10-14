@@ -1,0 +1,2 @@
+FULL_RDS=/root/GSE159677_external_validation_strict/objects/GSE159677_full_Harmony_strictECflag.rds
+REF_RDS=/root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds

@@ -1,0 +1,50 @@
+GSE247238 Step 3 raw-count state-resolved validation completed.
+Expression source: GEO original 10x matrices.
+Cell labels source: author h5ad metadata only.
+H5AD barcode source: obs_names
+GEO gene-symbol column: features column 1
+Samples processed: 19
+Minimum fraction of author final cells recovered in the expected GEO sample: 0.4087
+Samples with author-cell recovery below 0.80: CAR1_Seq1, CAR2_Seq1, CAR2_Seq2, CAR3_Seq1, CAR3_Seq2, CAR4_Seq1, CAR4_Seq2, CAR5_Seq1, CAR5_Seq2, CAR6_Seq1, CAR6_Seq2, CAR7_Seq1, CAR7_Seq2, CAR8_Seq2, CAR9_Seq1, CAR9_Seq2
+
+All_EC primary programme results:
+                      program  n_pairs  median_difference_Plaque_minus_Control  n_support_expected_direction expected_direction  p_two_sided  FDR_two_sided  p_directional  FDR_directional
+C1C2_late_vascular_remodeling        9                               -0.256284                             3      Plaque_higher     0.074219       0.185547       0.972656         0.972656
+          C3_early_activation        9                                0.081499                             7      Plaque_higher     0.250000       0.312500       0.125000         0.312500
+C4_independent_ECM_remodeling        9                                0.019016                             5      Plaque_higher     0.910156       0.910156       0.455078         0.758464
+         C7_arterial_identity        9                                0.026658                             3       Plaque_lower     0.250000       0.312500       0.902344         0.972656
+       protective_homeostasis        9                               -0.100354                             8       Plaque_lower     0.007812       0.039062       0.003906         0.019531
+
+All_EC >=10 cells in both conditions sensitivity:
+                      program  n_pairs  median_difference_Plaque_minus_Control  n_support_expected_direction expected_direction  p_two_sided  FDR_two_sided  p_directional  FDR_directional
+C1C2_late_vascular_remodeling        5                               -0.256284                             2      Plaque_higher       0.3125       0.390625        0.90625          0.90625
+          C3_early_activation        5                                0.081499                             4      Plaque_higher       0.1875       0.312500        0.09375          0.15625
+C4_independent_ECM_remodeling        5                                0.570507                             4      Plaque_higher       0.1875       0.312500        0.09375          0.15625
+         C7_arterial_identity        5                                0.026658                             2       Plaque_lower       0.4375       0.437500        0.84375          0.90625
+       protective_homeostasis        5                               -0.049862                             5       Plaque_lower       0.0625       0.312500        0.03125          0.15625
+
+Top All_EC fixed genes by two-sided paired P value:
+  gene  n_pairs  median_difference_Plaque_minus_Control  n_Plaque_higher  n_Plaque_lower  p_two_sided  FDR_two_sided
+IGFBP5        9                                0.323894                7               1     0.023438       0.333333
+  THBD        9                               -0.719543                1               8     0.027344       0.333333
+ SULF1        9                               -0.511134                1               6     0.031250       0.333333
+   ELN        9                               -0.997129                2               6     0.054688       0.437500
+COL8A1        9                               -0.447337                2               5     0.078125       0.458333
+   MGP        9                               -1.399265                3               6     0.097656       0.458333
+CXCL12        9                                0.585613                6               2     0.109375       0.458333
+   CLU        9                               -0.505994                2               7     0.128906       0.458333
+  KLF2        9                               -0.704724                3               6     0.128906       0.458333
+ THBS1        9                                0.000000                3               4     0.218750       0.666667
+ SOX17        9                                0.262551                6               2     0.250000       0.666667
+   PGF        9                               -0.056547                2               5     0.296875       0.666667
+COL6A2        9                                0.814852                7               2     0.300781       0.666667
+ SPARC        9                                0.282959                6               3     0.300781       0.666667
+ ITLN1        9                                0.000000                2               3     0.312500       0.666667
+
+Interpretation rule:
+- Primary statistical unit is patient.
+- CAR1 remains descriptive only.
+- All_EC tests the overall EC shift.
+- EC_1 and EC_2 analyses test whether an apparent signal is caused by subtype composition.
+- Contexts with fewer than 10 cells per condition should be considered exploratory.
+- No new genes or score thresholds were selected from this cohort.

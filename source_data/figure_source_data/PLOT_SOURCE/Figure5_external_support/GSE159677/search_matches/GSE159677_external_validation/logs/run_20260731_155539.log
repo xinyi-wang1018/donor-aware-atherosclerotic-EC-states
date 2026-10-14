@@ -1,0 +1,9 @@
+============================================================
+GSE159677 external validation from processed aggregate matrix
+Start: Fri Jul 31 15:55:39 CST 2026
+BASE: /root/GSE159677_external_validation
+============================================================
+ERROR: Expected exactly one GSE159677 aggregate archive, found 0.
+Please upload this file to /root/GSE159677_external_validation/input :
+GSE159677_AGGREGATEMAPPED-tisCAR6samples_featurebcmatrixfiltered.tar.gz
+/root/GSE159677_external_validation/input/GSE159677_AGGREGATEMAPPED-tisCAR6samples_featurebcmatrixfiltered.tar.gz.zip

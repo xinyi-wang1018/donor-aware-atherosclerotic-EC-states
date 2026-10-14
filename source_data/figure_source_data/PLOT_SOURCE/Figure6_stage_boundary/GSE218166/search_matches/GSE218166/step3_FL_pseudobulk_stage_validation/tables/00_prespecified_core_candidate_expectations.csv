@@ -1,0 +1,5 @@
+"gene","expected_role","primary_expected_contrast"
+"ANGPT2","early_activation","Early-Normal_positive"
+"LOX","early_activation","Early-Normal_positive"
+"CTHRC1","early_activation","Early-Normal_positive"
+"SULF1","late_remodeling","Advanced-Normal_and_Advanced-Early_positive"

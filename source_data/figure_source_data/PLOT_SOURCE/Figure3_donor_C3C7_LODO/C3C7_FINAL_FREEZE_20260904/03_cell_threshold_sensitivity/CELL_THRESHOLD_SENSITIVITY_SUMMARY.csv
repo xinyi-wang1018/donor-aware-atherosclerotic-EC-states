@@ -1,0 +1,5 @@
+"filter_name","filter_mode","min_count","min_total_count","large_n","min_prop","min_cells_per_state","n_paired_donors","tested_genes","fdr_sig","c3_up","c3_down","robust_used","status"
+"cellthr5_design_min10_total15","design",10,15,10,0.7,5,12,3375,941,458,421,TRUE,"PASS"
+"cellthr10_design_min10_total15","design",10,15,10,0.7,10,5,2656,509,260,247,TRUE,"PASS"
+"cellthr20_design_min10_total15","design",10,15,10,0.7,20,1,,,,,,"<3 paired donors"
+"cellthr30_design_min10_total15","design",10,15,10,0.7,30,0,,,,,,"<3 paired donors"

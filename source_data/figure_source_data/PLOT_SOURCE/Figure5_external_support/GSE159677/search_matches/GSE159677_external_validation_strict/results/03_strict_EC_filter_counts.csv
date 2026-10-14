@@ -1,0 +1,13 @@
+"sample_id","patient_id","condition","strict_EC_cell","n_cells"
+"P1_AC","P1","AC",TRUE,7
+"P1_AC","P1","AC",FALSE,10494
+"P1_PA","P1","PA",TRUE,1175
+"P1_PA","P1","PA",FALSE,2090
+"P2_AC","P2","AC",TRUE,625
+"P2_AC","P2","AC",FALSE,13903
+"P2_PA","P2","PA",TRUE,476
+"P2_PA","P2","PA",FALSE,4623
+"P3_AC","P3","AC",TRUE,7
+"P3_AC","P3","AC",FALSE,11311
+"P3_PA","P3","PA",TRUE,618
+"P3_PA","P3","PA",FALSE,2431

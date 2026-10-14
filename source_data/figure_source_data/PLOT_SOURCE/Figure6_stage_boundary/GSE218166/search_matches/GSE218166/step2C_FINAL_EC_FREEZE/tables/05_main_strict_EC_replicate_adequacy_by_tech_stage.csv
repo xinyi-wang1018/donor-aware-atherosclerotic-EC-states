@@ -1,0 +1,7 @@
+"tech","disease_stage","n_donor_stage_units","n_unique_donors","total_cells","median_cells_per_unit","min_cells_per_unit","max_cells_per_unit","n_units_ge_10_cells","n_units_ge_20_cells","n_units_ge_30_cells","three_stage_primary_eligibility"
+"3DE","Normal",5,5,167,29,16,55,5,4,2,"PASS"
+"3DE","Early",1,1,6,6,6,6,0,0,0,"WEAK"
+"3DE","Advanced",3,3,70,22,6,42,2,2,1,"WEAK"
+"FL","Normal",4,4,262,51.5,24,135,4,4,3,"PASS"
+"FL","Early",5,5,475,13,1,327,3,2,2,"PASS"
+"FL","Advanced",7,7,354,46,2,149,6,6,5,"PASS"

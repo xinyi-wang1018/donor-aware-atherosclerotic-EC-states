@@ -1,0 +1,5 @@
+"model","lineage","raw_sequence","evaluated_original_sequence","endpoint_original","shared_C7_C3","L1_core_order","L1_exact_order","L2_order","terminal_C2","terminal_C4"
+"Harmony_local_reclusters","Lineage1","9->6->3->8->10->0->1->4->7","7->3->5->2->1","1",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Harmony_local_reclusters","Lineage2","9->6->3->8->10->0->1->11","7->3->5->2->1","1",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Harmony_local_reclusters","Lineage3","9->6->3->8->10->0->5","7->3->5->2","2",TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Harmony_local_reclusters","Lineage4","9->6->3->8->2","7->3->5->4","4",TRUE,FALSE,FALSE,TRUE,FALSE,TRUE

@@ -1,0 +1,26 @@
+============================================================
+GSE218166 STEP 2C - FINAL STRICT EC FREEZE
+============================================================
+Run time: 2026-08-13 16:32:15
+
+FINAL DECISION
+Main EC identity cluster = Step2B EC_recluster 2.
+Borderline EC-like cluster 3 is excluded from the primary freeze and retained only for sensitivity analysis.
+Clusters 0,1,4,5,6,7,8 are excluded as non-EC/mixed non-EC populations based on marker programs.
+
+Main strict EC cells: 1334
+Ultra-strict EC sensitivity cells: 848
+Expanded cluster2+3 EC sensitivity cells: 2536
+
+IMPORTANT
+Disease stage was NOT used in the freeze rule.
+The automatic Step2B HIGH_CONFIDENCE label was NOT used as final truth.
+Manual lineage marker review overrides the automatic review flag.
+
+STEP 3 DESIGN
+FL three-stage eligibility: PASS
+3DE three-stage eligibility: WEAK/FAIL
+Primary stage testing should use donor x disease-stage pseudobulk rather than cell-level P values.
+Repeated donors appearing in more than one stage must be accounted for in the statistical design.
+3DE should not be given equal weight to FL if its Early group remains sparse after strict EC freeze.
+

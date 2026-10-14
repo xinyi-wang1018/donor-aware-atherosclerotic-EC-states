@@ -1,0 +1,4 @@
+"model","lineage","raw_sequence","evaluated_original_sequence","endpoint_original","shared_C7_C3","L1_core_order","L1_exact_order","L2_order","terminal_C2","terminal_C4"
+"Harmony_original_clusters","Lineage1","7->5->1->2","7->5->1->2","2",FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Harmony_original_clusters","Lineage2","7->5->3","7->5->3","3",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Harmony_original_clusters","Lineage3","7->5->4","7->5->4","4",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE

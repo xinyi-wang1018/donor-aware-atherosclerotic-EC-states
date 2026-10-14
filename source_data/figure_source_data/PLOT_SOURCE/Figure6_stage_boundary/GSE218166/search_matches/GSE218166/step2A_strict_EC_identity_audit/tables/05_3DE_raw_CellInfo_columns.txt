@@ -1,0 +1,12 @@
+
+nCount_RNA
+nFeature_RNA
+ID
+total_count
+plate
+nGene
+Individual
+position
+Process_nature2016
+Level_nature2016
+tech

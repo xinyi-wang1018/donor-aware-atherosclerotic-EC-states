@@ -1,0 +1,32 @@
+============================================================
+GSE218166 STEP 2D - AUTHOR-ALIGNED EC LINEAGE AUDIT
+Technology-stratified relative-expression scoring
+Disease stage is NOT used for cell identity.
+Start: 2026-08-13 20:09:02 
+============================================================
+
+Scoring technology: FL 
+Scoring technology: 3DE 
+============================================================
+GSE218166 STEP2D AUTHOR-ALIGNED EC AUDIT
+============================================================
+All cells audited: 27899
+Technologies: FL, 3DE
+
+WHY STEP2D WAS NEEDED
+Raw marker detection rates are not comparable between FL and 3DE.
+The prior Main_strict_EC set retained strong VSMC/fibroblast signals.
+The source paper itself distinguishes EC using TIE1/PECAM1 and VSMC using CNN1/MYH11.
+Therefore lineage identity is re-audited here using within-technology relative expression.
+
+IMPORTANT
+Disease stage was NOT used to calculate identity scores or choose EC candidates.
+This step is an audit, not the final disease-stage test.
+
+Top five broad clusters by pooled EC margin:
+18 [margin=0.154, ECwinner=0.66]; 13 [margin=-0.133, ECwinner=0.42]; 2 [margin=-0.344, ECwinner=0.25]; 12 [margin=-0.399, ECwinner=0.30]; 22 [margin=-0.488, ECwinner=0.08]
+
+NEXT
+Upload GSE218166_step2D_REVIEW_SMALL.tar.gz.
+Then perform the FINAL author-aligned EC freeze and only afterward start Normal-Early-Advanced validation.
+Completed: 2026-08-13 20:09:37 

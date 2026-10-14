@@ -1,0 +1,7 @@
+Date: Wed Aug 12 15:22:14 CST 2026
+Python: /root/GSE247238_external_validation2/pyenv_metadata/bin/python
+3.13.14 | packaged by conda-forge | (main, Jun 12 2026, 09:50:25) [GCC 14.3.0]
+numpy 2.5.1
+pandas 2.3.3
+matplotlib 3.11.1
+openpyxl unavailable: No module named 'openpyxl'

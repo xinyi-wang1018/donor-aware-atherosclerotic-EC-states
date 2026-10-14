@@ -1,0 +1,73 @@
+C3/C7 freeze audit started: 2026-09-04 01:17:05
+EC_RDS: /root/AS_EC_state_scoring/AS_EC_highconfidence_state_scored.rds
+DONOR_MAP: /root/AS_EC_19day_sprint/04_donor_program_validation/04_sample_to_donor_mapping.csv
+OUTDIR: /root/AS_EC_C3C7_FINAL_FREEZE_20260904
+
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/00_QC/input_provenance_md5.csv [2 rows]
+
+===== LOAD EC OBJECT =====
+State source column: EC_cluster
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/00_QC/strict_source_state_QC.csv [8 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/00_QC/strict_source_donor_state_cell_counts.csv [117 rows]
+
+===== BUILD C3/C7 PSEUDOBULK =====
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/01_pseudobulk/ALL_C3_C7_pseudobulk_metadata.csv [39 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/01_pseudobulk/ALL_C3_C7_gene_total_counts.csv [32393 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/01_pseudobulk/PRIMARY_min5_C3_C7_design.csv [24 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/00_QC/PRIMARY_min5_donor_QC.csv [3 rows]
+
+===== FILTER AUDIT AT MIN CELLS = 5 =====
+Running filter audit: design_min5_total15
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min5_total15_edgeR_full.csv [6556 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min5_total15_C3_up.csv [732 rows]
+Running filter audit: design_min10_total15
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min10_total15_edgeR_full.csv [3375 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min10_total15_C3_up.csv [458 rows]
+Running filter audit: design_min5_total10
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min5_total10_edgeR_full.csv [6560 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/design_min5_total10_C3_up.csv [735 rows]
+Running filter audit: group_min5_total15
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/group_min5_total15_edgeR_full.csv [3064 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/group_min5_total15_C3_up.csv [337 rows]
+Running filter audit: group_min10_total15
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/group_min10_total15_edgeR_full.csv [1460 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/group_min10_total15_C3_up.csv [200 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/FILTER_AUDIT_SUMMARY.csv [5 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/FILTER_AUDIT_KEY_GENES.csv [20 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/02_filter_audit/MIN5_vs_MIN10_TESTED_GENE_MEMBERSHIP.csv [6556 rows]
+
+===== CELL THRESHOLD SENSITIVITY =====
+Threshold 5: paired donors = 12
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/min5_C3_C7_design.csv [24 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/min5_edgeR_full.csv [3375 rows]
+Threshold 10: paired donors = 5
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/min10_C3_C7_design.csv [10 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/min10_edgeR_full.csv [2656 rows]
+Threshold 20: paired donors = 1
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/min20_C3_C7_design.csv [2 rows]
+Threshold 30: paired donors = 0
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/CELL_THRESHOLD_SENSITIVITY_SUMMARY.csv [4 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/CELL_THRESHOLD_KEY_GENES.csv [16 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/CELL_THRESHOLD_INCLUDED_DONORS.csv [18 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/04_key_genes/PRIMARY_4gene_12donor_logCPM_effects.csv [48 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/04_key_genes/PRIMARY_4gene_edgeR_effects.csv [4 rows]
+
+===== FINAL FREEZE DECISION =====
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/03_cell_threshold_sensitivity/KEY_GENE_DIRECTION_STABILITY.csv [4 rows]
+DECISION_CODE=FINAL_FREEZE_DESIGN_MIN10
+FINAL FREEZE: 3375 tested genes / 941 FDR<0.05 / 458 C3-up / 421 C3-down.
+Old manuscript values 4,491 / 1,068 / 574 are retired because they were not reproduced by the audited strict-source object.
+Primary donor inclusion remains >=5 C3 cells AND >=5 C7 cells per donor, retaining 12 paired donors.
+Gene filtering is fixed at edgeR filterByExpr(design=paired design, min.count=10, min.total.count=15, large.n=10, min.prop=0.7).
+The paired edgeR model is ~ donor_factor + condition, testing C3 vs C7 with glmQLFit/glmQLFTest.
+C3-up is defined as FDR<0.05 and logFC>0.5.
+Cell-count threshold sensitivity is repeated at 5/10/20/30 cells per state using the same min.count=10 gene-filter rule.
+Thresholds 20/30 may be non-estimable if fewer than 3 paired donors remain; report that explicitly rather than forcing a model. 
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_vs_C7_full_source_data.csv [3375 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_vs_C7_FDRsig.csv [941 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_up_458.csv [458 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_C3_down_421.csv [421 rows]
+WRITE: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/05_final_freeze/FINAL_FROZEN_4_KEY_GENES.csv [4 rows]
+
+DONE. Output: /root/AS_EC_C3C7_FINAL_FREEZE_20260904
+Read first: /root/AS_EC_C3C7_FINAL_FREEZE_20260904/FREEZE_DECISION.txt

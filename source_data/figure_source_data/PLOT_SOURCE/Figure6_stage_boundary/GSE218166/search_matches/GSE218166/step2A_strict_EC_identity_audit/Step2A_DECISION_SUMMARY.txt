@@ -1,0 +1,31 @@
+============================================================
+GSE218166 Step 2A strict EC identity audit summary
+============================================================
+Run time: 2026-08-13 14:37:57
+Cells: 27899
+Genes: 56608
+UMAP used: umap.harmony
+
+IMPORTANT METHOD RULES
+1. Disease stage was NOT used to define EC identity.
+2. Broad cluster identity alone was NOT used to freeze EC.
+3. A/B/C are provisional review tiers, not final frozen EC labels.
+4. Tier A is intentionally conservative.
+5. Tier B/C retain possible EC-lineage transition cells for sensitivity review.
+
+PROVISIONAL TIER COUNTS
+A_ultra_strict: 1531
+B_lineage_supported: 1346
+C_lineage_candidate: 2146
+Any A/B/C candidate: 5023
+
+SAMPLE-UNIT AUDIT
+Reconstructed donor-position-process-tech units: 46
+These reconstructed units are NOT automatically accepted as the final pseudobulk units.
+Review raw CellInfo candidate ID columns before Step 3.
+
+NEXT DECISION
+Review 01-08 plots and tables 08-13.
+Then freeze the main high-confidence EC set in Step 2B.
+Only after that should Normal -> Early -> Advanced testing begin.
+

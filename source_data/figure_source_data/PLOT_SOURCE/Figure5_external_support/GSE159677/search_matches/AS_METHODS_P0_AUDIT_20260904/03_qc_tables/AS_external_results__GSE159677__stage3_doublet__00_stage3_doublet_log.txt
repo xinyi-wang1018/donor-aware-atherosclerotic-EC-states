@@ -1,0 +1,101 @@
+===== GSE159677 STAGE 3: SAMPLE-WISE scDblFinder =====
+Start: 2026-07-29 02:36:52 
+Input: /root/AS_external_results/GSE159677/stage2_qc_filtered/GSE159677_qc_filtered_before_doublet.rds 
+Output: /root/AS_external_results/GSE159677/stage3_doublet 
+scDblFinder version: 1.24.0 
+
+Samples: P1_AC, P1_PA, P2_AC, P2_PA, P3_AC, P3_PA 
+Total QC-passed cells: 48177 
+
+
+----------------------------------------
+Sample 1 of 6 : P1_AC 
+Dimensions: 33538 genes x 10381 cells
+Predicted doublets: 879 (8.47%) 
+Predicted singlets: 9502 
+
+----------------------------------------
+Sample 2 of 6 : P1_PA 
+Dimensions: 33538 genes x 3193 cells
+Predicted doublets: 138 (4.32%) 
+Predicted singlets: 3055 
+
+----------------------------------------
+Sample 3 of 6 : P2_AC 
+Dimensions: 33538 genes x 15114 cells
+Predicted doublets: 1644 (10.88%) 
+Predicted singlets: 13470 
+
+----------------------------------------
+Sample 4 of 6 : P2_PA 
+Dimensions: 33538 genes x 5047 cells
+Predicted doublets: 267 (5.29%) 
+Predicted singlets: 4780 
+
+----------------------------------------
+Sample 5 of 6 : P3_AC 
+Dimensions: 33538 genes x 11485 cells
+Predicted doublets: 1020 (8.88%) 
+Predicted singlets: 10465 
+
+----------------------------------------
+Sample 6 of 6 : P3_PA 
+Dimensions: 33538 genes x 2957 cells
+Predicted doublets: 99 (3.35%) 
+Predicted singlets: 2858 
+
+Doublet summary:
+ sample_id patient_id region n_before_doublet n_predicted_singlet
+     P1_AC         P1     AC            10381                9502
+     P1_PA         P1     PA             3193                3055
+     P2_AC         P2     AC            15114               13470
+     P2_PA         P2     PA             5047                4780
+     P3_AC         P3     AC            11485               10465
+     P3_PA         P3     PA             2957                2858
+ n_predicted_doublet predicted_doublet_rate
+                 879             0.08467392
+                 138             0.04321954
+                1644             0.10877332
+                 267             0.05290271
+                1020             0.08881149
+                  99             0.03347988
+ default_expected_rate_from_cell_count median_doublet_score q95_doublet_score
+                              0.083048          0.016002560         0.9955022
+                              0.025544          0.012471152         0.2135260
+                              0.120912          0.005040557         0.9993917
+                              0.040376          0.011060945         0.4461148
+                              0.091880          0.013041949         0.9963574
+                              0.023656          0.012454854         0.1715253
+
+Merging doublet-annotated sample objects...
+Merging singlet sample objects...
+
+Total cells before doublet removal: 48177 
+Total singlets after doublet removal: 44130 
+Overall singlet retain rate: 0.916 
+
+Saved outputs:
+/root/AS_external_results/GSE159677/stage3_doublet/00_stage3_doublet_log.txt 
+/root/AS_external_results/GSE159677/stage3_doublet/01_doublet_summary_by_sample.csv 
+/root/AS_external_results/GSE159677/stage3_doublet/02_cell_level_doublet_calls.csv.gz 
+/root/AS_external_results/GSE159677/stage3_doublet/03_doublet_rate_by_sample.png 
+/root/AS_external_results/GSE159677/stage3_doublet/04_doublet_score_by_sample_and_class.png 
+/root/AS_external_results/GSE159677/stage3_doublet/05_doublet_score_vs_nCount.png 
+/root/AS_external_results/GSE159677/stage3_doublet/GSE159677_qc_doublet_annotated_all_cells.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/GSE159677_qc_doublet_clean_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/GSE159677_singlets_split_by_sample.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P1_AC_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P1_AC_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P1_PA_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P1_PA_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P2_AC_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P2_AC_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P2_PA_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P2_PA_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P3_AC_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P3_AC_singlets.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P3_PA_doublet_annotated.rds 
+/root/AS_external_results/GSE159677/stage3_doublet/per_sample/P3_PA_singlets.rds 
+
+===== STAGE 3 COMPLETE =====
+End: 2026-07-29 02:42:21 

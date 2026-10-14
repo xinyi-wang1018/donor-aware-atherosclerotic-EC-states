@@ -1,0 +1,199 @@
+[2026-08-01 13:37:07] Step 1 started
+BASE=/root/GSE247238_external_validation2
+下载：https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+--2026-08-01 13:37:07--  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Resolving ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)... 130.14.250.7, 130.14.250.10, 2607:f220:41e:250::12, ...
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:38:10--  (try: 2)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:39:13--  (try: 3)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:40:17--  (try: 4)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:41:22--  (try: 5)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:42:28--  (try: 6)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:43:35--  (try: 7)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:44:43--  (try: 8)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:45:53--  (try: 9)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2026-08-01 13:47:02--  (try:10)  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247238/suppl/GSE247238_RAW.tar
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... [2026-08-01 13:50:13] Step 1 started
+BASE=/root/GSE247238_external_validation2
+已存在，跳过下载：/root/GSE247238_external_validation2/00_raw_geo/GSE247238_RAW.tar
+检查并解压 GEO TAR...
+下载：https://zenodo.org/api/records/17520898/files/scRNA_final_dataset.zip/content
+--2026-08-01 13:50:13--  https://zenodo.org/api/records/17520898/files/scRNA_final_dataset.zip/content
+Resolving zenodo.org (zenodo.org)... 137.138.153.219, 188.185.48.75, 188.184.98.114, ...
+Connecting to zenodo.org (zenodo.org)|137.138.153.219|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 458601777 (437M) [application/octet-stream]
+Saving to: '/root/GSE247238_external_validation2/02_author_reference_metadata/scRNA_final_dataset.zip'
+
+     0K .......... .......... .......... .......... ..........  0% 9.70K 12h49m
+    50K .......... .......... .......... .......... ..........  0% 16.4K 10h12m
+   100K .......... .......... .......... .......... ..........  0% 10.9K 10h37m
+   150K .......... .......... .......... .......... ..........  0% 13.7K 10h14m
+   200K .......... .......... .......... .......... ..........  0% 14.8K 9h52m
+   250K .......... .......... .......... .......... ..........  0% 20.7K 9h13m
+   300K .......... .......... .......... .......... ..........  0% 20.7K 8h45m
+   350K .......... .......... .......... .......... ..........  0% 9.33K 9h19m
+   400K .......... .......... .......... .......... ..........  0% 16.6K 9h7m
+   450K .......... .......... .......... .......... ..........  0% 11.8K 9h16m
+   500K .......... .......... .......... .......... ..........  0% 9.53K 9h36m
+   550K .......... .......... .......... .......... ..........  0% 17.7K 9h23m
+   600K .......... .......... .......... .......... ..........  0% 15.9K 9h16m
+   650K .......... .......... .......... .......... ..........  0% 18.7K 9h4m
+   700K .......... .......... .......... .......... ..........  0% 21.8K 8h51m
+   750K .......... .......... .......... .......... ..........  0% 26.7K 8h35m
+   800K .......... .......... .......... .......... ..........  0% 19.3K 8h27m
+   850K .......... .......... .......... .......... ..........  0% 18.6K 8h21m
+   900K .......... .......... .......... .......... ..........  0% 15.4K 8h20m
+   950K .......... .......... .......... .......... ..........  0% 16.9K 8h17m
+  1000K .......... .......... .......... .......... ..........  0% 13.9K 8h19m
+  1050K .......... .......... .......... .......... ..........  0% 15.4K 8h18m
+  1100K .......... .......... .......... .......... ..........  0% 13.7K 8h20m
+  1150K .......... .......... .......... .......... ..........  0% 17.7K 8h17m
+  1200K .......... .......... .......... .......... ..........  0% 21.5K 8h10m
+  1250K .......... .......... .......... .......... ..........  0% 24.7K 8h3m
+  1300K .......... .......... .......... .......... ..........  0% 18.3K 8h0m
+  1350K .......... .......... .......... .......... ..........  0% 16.1K 7h59m
+  1400K .......... .......... .......... .......... ..........  0% 16.0K 7h59m
+  1450K .......... .......... .......... .......... ..........  0% 29.9K 7h51m
+  1500K .......... .......... .......... .......... ..........  0% 23.6K 7h46m
+  1550K .......... .......... .......... .......... ..........  0% 23.3K 7h41m
+  1600K .......... .......... .......... .......... ..........  0% 17.3K 7h40m
+  1650K .......... .......... .......... .......... ..........  0% 13.6K 7h43m
+  1700K .......... .......... .......... .......... ..........  0% 20.6K 7h40m
+  1750K .......... .......... .......... .......... ..........  0% 10.1K 7h47m
+  1800K .......... .......... .......... .......... ..........  0% 12.1K 7h51m
+  1850K .......... .......... .......... .......... ..........  0% 12.5K 7h55m
+  1900K .......... .......... .......... .......... ..........  0% 13.0K 7h57m
+  1950K .......... .......... .......... .......... ..........  0% 8.04K 8h8m
+  2000K .......... .......... .......... .......... ..........  0% 13.0K 8h10m
+  2050K .......... .......... .......... .......... ..........  0% 9.25K 8h18m
+  2100K .......... .......... .......... .......... ..........  0% 8.33K 8h27m
+  2150K .......... .......... .......... .......... ..........  0% 9.95K 8h32m
+  2200K .......... .......... .......... .......... ..........  0% 7.07K 8h44m
+  2250K .......... .......... .......... .......... ..........  0% 11.4K 8h47m
+  2300K .......... .......... .......... .......... ..........  0% 9.02K 8h53m
+  2350K .......... .......... .......... .......... ..........  0% 15.2K 8h52m
+  2400K .......... .......... .......... .......... ..........  0% 10.8K 8h55m
+  2450K .......... .......... .......... .......... ..........  0% 12.8K 8h56m
+  2500K .......... .......... .......... .......... ..........  0% 12.5K 8h57m
+  2550K .......... .......... .......... .......... ..........  0% 16.3K 8h55m
+  2600K .......... .......... .......... .......... ..........  0% 15.1K 8h54m
+  2650K .......... .......... .......... .......... ..........  0% 18.0K 8h52m
+  2700K .......... .......... .......... .......... ..........  0% 14.1K 8h52m
+  2750K .......... .......... .......... .......... ..........  0% 10.9K 8h54m
+  2800K .......... .......... .......... .......... ..........  0% 8.60K 9h0m
+  2850K .......... .......... .......... .......... ..........  0% 18.0K 8h58m
+  2900K .......... .......... .......... .......... ..........  0% 14.6K 8h57m
+  2950K .......... .......... .......... .......... ..........  0% 8.22K 9h3m
+  3000K .......... .......... .......... .......... ..........  0% 13.5K 9h3m
+  3050K .......... .......... .......... .......... ..........  0% 14.1K 9h3m
+  3100K .......... .......... .......... .......... ..........  0% 15.0K 9h2m
+  3150K .......... .......... .......... .......... .........[2026-08-01 14:31:55] Step 1 started
+BASE=/root/GSE247238_external_validation2
+已存在，跳过下载：/root/GSE247238_external_validation2/00_raw_geo/GSE247238_RAW.tar
+检查并解压 GEO TAR...
+GEO 文件已解压，跳过。
+extract: scRNA_final_dataset/GRCh38-p14-Gencode_v44_with_intron_final_data.h5ad
+extract: scRNA_final_dataset/scRNA_data_column_descriptions.md
+extract: __MACOSX/scRNA_final_dataset/._scRNA_data_column_descriptions.md
+创建 Python 虚拟环境：/root/GSE247238_external_validation2/pyenv_metadata
+Requirement already satisfied: pip in ./GSE247238_external_validation2/pyenv_metadata/lib/python3.13/site-packages (26.1.2)
+Collecting pip
+  Downloading pip-26.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools
+  Downloading setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel
+  Downloading wheel-0.47.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging>=24.0 (from wheel)
+  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Downloading pip-26.2-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 3.8 MB/s  0:00:00
+Downloading setuptools-83.0.0-py3-none-any.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 2.7 MB/s  0:00:00
+Downloading wheel-0.47.0-py3-none-any.whl (32 kB)
+Downloading packaging-26.2-py3-none-any.whl (100 kB)
+Installing collected packages: setuptools, pip, packaging, wheel
+  Attempting uninstall: pip
+    Found existing installation: pip 26.1.2
+    Uninstalling pip-26.1.2:
+      Successfully uninstalled pip-26.1.2
+
+Successfully installed packaging-26.2 pip-26.2 setuptools-83.0.0 wheel-0.47.0
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out. (read timeout=15)")': /packages/bd/98/ef2b6fe2903e377cbe870c3b2800d62552f1e3dbe81ce49e1923c53d1c5c/h5py-3.16.0-cp313-cp313-manylinux_2_28_x86_64.whl
+
+===== RESOLVED MAPPING PREVIEW =====
+       gsm patient seq_piece  sample_id                                                         tenx_dir condition_code  n_overlap  overlap_fraction_of_smaller_set  best_total_overlap  second_best_total_overlap  assignment_margin                  mapping_status
+GSM7885766    CAR2      Seq1  CAR2_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR2_Seq1        Control        160                         0.601504               261.0                      234.0               27.0 paired_one_to_one_barcode_match
+GSM7885767    CAR2      Seq2  CAR2_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR2_Seq2         Plaque        101                         0.737226               261.0                      234.0               27.0 paired_one_to_one_barcode_match
+GSM7885768    CAR3      Seq1  CAR3_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR3_Seq1        Control        133                         0.715054               285.0                      265.0               20.0 paired_one_to_one_barcode_match
+GSM7885769    CAR3      Seq2  CAR3_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR3_Seq2         Plaque        152                         0.690909               285.0                      265.0               20.0 paired_one_to_one_barcode_match
+GSM7885770    CAR4      Seq1  CAR4_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR4_Seq1        Control        106                         0.736111               220.0                      219.0                1.0 paired_one_to_one_barcode_match
+GSM7885771    CAR4      Seq2  CAR4_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR4_Seq2         Plaque        114                         0.754967               220.0                      219.0                1.0 paired_one_to_one_barcode_match
+GSM7885772    CAR5      Seq1  CAR5_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR5_Seq1        Control        541                         0.883987              1051.0                     1040.0               11.0 paired_one_to_one_barcode_match
+GSM7885773    CAR5      Seq2  CAR5_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR5_Seq2         Plaque        510                         0.886957              1051.0                     1040.0               11.0 paired_one_to_one_barcode_match
+GSM7885774    CAR6      Seq1  CAR6_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR6_Seq1        Control        497                         0.787639               732.0                      424.0              308.0 paired_one_to_one_barcode_match
+GSM7885775    CAR6      Seq2  CAR6_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR6_Seq2         Plaque        235                         0.748408               732.0                      424.0              308.0 paired_one_to_one_barcode_match
+GSM7885776    CAR7      Seq1  CAR7_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR7_Seq1        Control       1423                         0.776747              1601.0                        0.0             1601.0 paired_one_to_one_barcode_match
+GSM7885777    CAR7      Seq2  CAR7_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR7_Seq2         Plaque        178                         0.738589              1601.0                        0.0             1601.0 paired_one_to_one_barcode_match
+GSM7885778    CAR8      Seq1  CAR8_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR8_Seq1        Control        119                         0.809524               166.0                        0.0              166.0 paired_one_to_one_barcode_match
+GSM7885779    CAR8      Seq2  CAR8_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR8_Seq2         Plaque         47                         0.712121               166.0                        0.0              166.0 paired_one_to_one_barcode_match
+GSM7885780    CAR9      Seq1  CAR9_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR9_Seq1        Control        501                         0.674293              1013.0                      895.0              118.0 paired_one_to_one_barcode_match
+GSM7885781    CAR9      Seq2  CAR9_Seq2  /root/GSE247238_external_validation2/01_10x_by_sample/CAR9_Seq2         Plaque        512                         0.681758              1013.0                      895.0              118.0 paired_one_to_one_barcode_match
+GSM7885782   CAR10      Seq1 CAR10_Seq1 /root/GSE247238_external_validation2/01_10x_by_sample/CAR10_Seq1        Control        320                         0.993789               511.0                      174.0              337.0 paired_one_to_one_barcode_match
+GSM7885783   CAR10      Seq2 CAR10_Seq2 /root/GSE247238_external_validation2/01_10x_by_sample/CAR10_Seq2         Plaque        191                         1.000000               511.0                      174.0              337.0 paired_one_to_one_barcode_match
+GSM7885784    CAR1      Seq1  CAR1_Seq1  /root/GSE247238_external_validation2/01_10x_by_sample/CAR1_Seq1         Plaque        873                         0.859252                 NaN                        NaN                NaN       single_piece_best_overlap
+
+Results written to: /root/GSE247238_external_validation2/03_metadata_resolution_results
+
+============================================================
+Step 1 完成。
+
+请优先查看：
+1. /root/GSE247238_external_validation2/03_metadata_resolution_results/05_resolved_seq_condition_mapping.csv
+2. /root/GSE247238_external_validation2/03_metadata_resolution_results/04_barcode_overlap_long.csv
+3. /root/GSE247238_external_validation2/03_metadata_resolution_results/07_scRNA_data_column_descriptions.md
+4. /root/GSE247238_external_validation2/03_metadata_resolution_results/08_step1_summary.txt
+
+请下载并上传这个压缩包：
+/root/GSE247238_external_validation2/GSE247238_step1_metadata_resolution_results.tar.gz
+
+服务器下载命令示例：
+sz /root/GSE247238_external_validation2/GSE247238_step1_metadata_resolution_results.tar.gz
+============================================================
+[2026-08-01 14:33:34] Step 1 completed

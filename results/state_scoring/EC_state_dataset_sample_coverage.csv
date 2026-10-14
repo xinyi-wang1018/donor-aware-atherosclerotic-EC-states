@@ -1,0 +1,12 @@
+"EC_state_group","n_cells","n_datasets_present","n_samples_present","dominant_dataset","dominant_dataset_proportion"
+"ECM_remodeling_EndMT_candidate",675,5,26,"GSE253904",0.78962962962963
+"IFN_MHCII_EC",349,5,34,"GSE253904",0.810888252148997
+"activated_angiogenic_EC",750,5,34,"GSE253904",0.901333333333333
+"arterial_like_EC",1710,5,39,"GSE253904",0.695321637426901
+"cycling_EC",26,3,16,"GSE253904",0.807692307692308
+"inflammatory_EC",25,3,8,"GSE253904",0.84
+"lymphatic_EC",69,3,9,"GSE253904",0.898550724637681
+"metabolic_EC",77,1,7,"GSE179159",1
+"rare_unresolved_EC",57,2,5,"GSE224273",0.912280701754386
+"vascular_EC",1220,5,30,"GSE253904",0.571311475409836
+"venous_microvascular_EC",1762,5,33,"GSE253904",0.838819523269012

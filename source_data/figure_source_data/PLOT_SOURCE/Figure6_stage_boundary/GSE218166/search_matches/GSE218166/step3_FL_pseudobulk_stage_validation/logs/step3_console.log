@@ -1,0 +1,53 @@
+============================================================
+GSE218166 STEP 3
+FL donor-stage pseudobulk Normal -> Early -> Advanced validation
+Start: 2026-08-14 00:10:45 
+============================================================
+
+MAIN FL pseudobulk samples: 16 
+
+  Normal    Early Advanced 
+       4        5        7 
+
+
+============================================================
+GSE218166 STEP3 FL PSEUDOBULK STAGE VALIDATION
+============================================================
+Run time: 2026-08-14 00:11:47
+
+PRIMARY BIOLOGICAL REPLICATE
+donor x disease-stage pseudobulk; individual cells are not treated as independent replicates.
+
+MAIN FL pseudobulk units: 16
+Normal / Early / Advanced units: 4 / 5 / 7
+Paired Early-Advanced donors: FL_CA116, FL_CA124, FL_CA129, FL_CA139
+
+PRIMARY CONTRASTS
+Early-Normal: unpaired donor-level pseudobulk.
+Advanced-Normal: unpaired donor-level pseudobulk.
+Advanced-Early: paired analysis restricted to donors measured at both stages.
+Ordered 0-1-2 trend: secondary analysis; duplicateCorrelation donor blocking used when estimable.
+
+Ordered-trend donor correlation estimate: 0.229
+
+PROGRAM DIRECTIONAL SUMMARY
+C7_homeostatic_arterial | E-N=0.069 | A-N=0.069 | A-E paired=0.069 | expected_direction_not_reproduced_in_main
+C3_early_activation | E-N=0.069 | A-N=0.069 | A-E paired=0.069 | directionally_supported_in_main_only
+C2_late_vascular_remodeling | E-N=0.069 | A-N=0.069 | A-E paired=0.069 | directionally_supported_in_main_only
+ECM_remodeling_support | E-N=0.069 | A-N=0.069 | A-E paired=0.069 | directionally_supported_in_main_only
+
+CORE CANDIDATE SUMMARY
+ANGPT2 | Early-Normal | main logFC=-4.227 | main P=6.59e-03 | expanded logFC=-4.886 | expected_direction_not_supported
+LOX | Early-Normal | main logFC=1.296 | main P=2.20e-01 | expanded logFC=-0.932 | expected_direction_main_only
+CTHRC1 | Early-Normal | main logFC=-1.524 | main P=3.11e-01 | expanded logFC=-1.036 | expected_direction_not_supported
+SULF1 | Advanced-Normal | main logFC=-2.132 | main P=2.29e-02 | expanded logFC=-1.583 | expected_direction_not_supported
+SULF1 | Advanced-Early_paired | main logFC=-2.831 | main P=5.71e-03 | expanded logFC=-1.940 | expected_direction_not_supported
+
+INTERPRETATION RULE
+Nominal/FDR significance is reported, but evidence is not called positive solely because P<0.05.
+Direction must agree with the pre-specified biological expectation, and MAIN-versus-EXPANDED sensitivity concordance is reported.
+3DE Early remains descriptive only because it has one donor after final EC freeze.
+
+NEXT
+Upload GSE218166_step3_REVIEW_SMALL.tar.gz for biological interpretation and decision on the next validation step.
+Completed: 2026-08-14 00:11:48 

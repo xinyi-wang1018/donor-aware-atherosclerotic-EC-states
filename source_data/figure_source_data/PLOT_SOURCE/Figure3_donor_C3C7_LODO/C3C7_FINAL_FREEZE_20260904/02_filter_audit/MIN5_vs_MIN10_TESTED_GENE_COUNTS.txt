@@ -1,0 +1,5 @@
+design_min5 tested genes: 6556
+design_min10 tested genes: 3375
+shared: 3375
+min5-only: 3181
+min10-only: 0

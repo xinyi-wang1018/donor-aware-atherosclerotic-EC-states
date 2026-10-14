@@ -1,0 +1,6 @@
+"scenario","min_cells","adjust_identity","n_paired_donors","design_used","status"
+"All_unadjusted",5,FALSE,14,"donor_state","OK"
+"All_identity_adjusted",5,TRUE,14,"donor_continuity_panEC_state","OK"
+"Proximity50",5,FALSE,13,"donor_state","OK"
+"Proximity30",3,FALSE,14,"donor_state","OK"
+"Proximity50_highArterialC7",3,FALSE,14,"donor_state","OK"

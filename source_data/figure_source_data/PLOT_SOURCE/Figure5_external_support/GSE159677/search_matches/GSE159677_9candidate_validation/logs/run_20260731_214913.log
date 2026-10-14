@@ -1,0 +1,41 @@
+============================================================
+GSE159677 nine early-candidate validation
+Start:      Fri Jul 31 21:49:13 CST 2026
+Input RDS:  /root/GSE159677_external_validation_layered_v3_fixed/objects/GSE159677_expanded_EC_layered_validation_V3.rds
+Output:     /root/GSE159677_9candidate_validation
+============================================================
+Fontconfig warning: using without calling FcInit()
+GSE159677 nine early-candidate validation completed.
+Input expanded EC cells: 5675
+Early candidates present in expression matrix: 9/9
+SULF1 anchor present: TRUE
+Formal paired edgeR completed: TRUE
+Biological replicate: patient, not cell.
+PA = plaque-proximal adjacent diseased artery; it is not a truly healthy control.
+AC = atherosclerotic core region of the plaque.
+AC versus PA is a within-patient spatial contrast, not a longitudinal early-versus-late time series.
+A 3/3 paired direction supports cross-patient spatial reproducibility.
+It does not prove that the candidate occurs before SULF1, drives SULF1, or causes endothelial transition.
+Mapped-state and Tier analyses are supporting sensitivity analyses, not lineage tracing. 
+============================================================
+NINE-CANDIDATE VALIDATION COMPLETED: Fri Jul 31 21:49:37 CST 2026
+
+请下载并上传给我的轻量结果包：
+  /root/GSE159677_9candidate_validation/GSE159677_9candidate_review_small.tar.gz
+
+核心结果目录：
+  /root/GSE159677_9candidate_validation/results
+
+大型全基因 pseudobulk 表保留在：
+  /root/GSE159677_9candidate_validation/objects
+
+最重要的结果文件：
+  /root/GSE159677_9candidate_validation/results/13_final_candidate_validation_summary.csv
+  /root/GSE159677_9candidate_validation/results/11_candidate_edgeR_paired_AC_vs_PA.csv
+  /root/GSE159677_9candidate_validation/results/12_paired_statistics_pseudobulk_logCPM.csv
+  /root/GSE159677_9candidate_validation/results/06_paired_mean_expression_by_EC_layer_min30cells.csv
+  /root/GSE159677_9candidate_validation/results/08_candidate_expression_by_mapped_state.csv
+  /root/GSE159677_9candidate_validation/results/01_candidate_paired_mean_expression.png
+  /root/GSE159677_9candidate_validation/results/05_candidate_paired_pseudobulk_logCPM.png
+  /root/GSE159677_9candidate_validation/results/06_patient_AC_minus_PA_logCPM_heatmap.png
+============================================================

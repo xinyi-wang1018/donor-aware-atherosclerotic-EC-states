@@ -1,0 +1,128 @@
+nohup: ignoring input
+===== GSE159677 STAGE 4 V3: RESUME FROM HARMONY =====
+Start: 2026-07-29 13:30:31 
+Input: /root/AS_external_results/GSE159677/stage4_fullcell_harmony/objects/GSE159677_checkpoint_after_Harmony.rds 
+Output: /root/AS_external_results/GSE159677/stage4_fullcell_harmony 
+
+Loaded cells: 44130 
+Loaded genes: 33538 
+Harmony dimensions: 40 
+
+Running UMAP and graph clustering...
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9574
+Number of communities: 12
+Elapsed time: 8 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9358
+Number of communities: 20
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9203
+Number of communities: 23
+Elapsed time: 9 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 44130
+Number of edges: 1559319
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9089
+Number of communities: 26
+Elapsed time: 9 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+13:31:23 UMAP embedding parameters a = 0.9922 b = 1.112
+13:31:23 Read 44130 rows and found 30 numeric columns
+13:31:23 Using Annoy for neighbor search, n_neighbors = 30
+13:31:23 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+13:31:26 Writing NN index file to temp file /tmp/RtmpLdNp8B/file3beb8abfd9ae
+13:31:26 Searching Annoy index using 1 thread, search_k = 3000
+13:31:38 Annoy recall = 100%
+13:31:38 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:31:40 Initializing from normalized Laplacian + noise (using RSpectra)
+13:31:47 Commencing optimization for 200 epochs, with 1947748 positive edges
+13:31:47 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+13:32:10 Optimization finished
+Saved UMAP/clustering checkpoint.
+Calculating preliminary major-lineage scores...
+Finding positive markers for each cluster...
+Calculating cluster 0
+For a (much!) faster implementation of the Wilcoxon Rank Sum Test,
+(default method for FindMarkers) please install the presto package
+--------------------------------------------
+install.packages('devtools')
+devtools::install_github('immunogenomics/presto')
+--------------------------------------------
+After installation of presto, Seurat will automatically use the more 
+efficient implementation (no further action necessary).
+This message will be shown once per session
+Calculating cluster 8
+Calculating cluster 9
+Calculating cluster 10
+Calculating cluster 5
+Calculating cluster 7
+Calculating cluster 21
+Calculating cluster 1
+Calculating cluster 13
+Calculating cluster 3
+Calculating cluster 16
+Calculating cluster 12
+Calculating cluster 6
+Calculating cluster 2
+Calculating cluster 11
+Calculating cluster 14
+Calculating cluster 15
+Calculating cluster 4
+Calculating cluster 17
+Calculating cluster 20
+Calculating cluster 18
+Calculating cluster 22
+Calculating cluster 19
+
+Candidate endothelial clusters: 13, 18, 2 
+Candidate endothelial cells: 5702 
+
+Final cluster count: 23 
+Saved formal full-cell object.
+IMPORTANT: preliminary labels must be manually reviewed before final EC extraction.
+
+===== STAGE 4 V3 RESUME COMPLETE =====
+End: 2026-07-29 13:38:15 

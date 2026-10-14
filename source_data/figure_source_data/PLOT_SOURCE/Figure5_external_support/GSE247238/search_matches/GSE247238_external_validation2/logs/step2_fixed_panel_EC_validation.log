@@ -1,0 +1,60 @@
+[2026-08-01 15:20:35] Step 2 started
+读取 h5ad（backed模式）...
+CAR1-CAR10总细胞数：11208
+作者注释EC数：1394
+基因symbol来源：var_column:HGNC_NAME
+固定基因可用：32/32
+载入EC表达矩阵...
+
+===== STEP 2 SUMMARY =====
+GSE247238 Step 2 fixed-panel EC validation completed.
+H5AD matrix used for pseudobulk: X
+Gene-symbol source: var_column:HGNC_NAME
+CAR1-CAR10 total cells: 11208
+Author-annotated EC cells: 1394
+Primary paired patients with EC in both conditions: 9 (CAR2, CAR3, CAR4, CAR5, CAR6, CAR7, CAR8, CAR9, CAR10)
+Mapping sensitivity patients: 4 (CAR7, CAR8, CAR9, CAR10)
+Pairs with at least 10 EC in each condition: 5 (CAR5, CAR6, CAR7, CAR9, CAR10)
+Fixed genes available: 32/32
+Missing fixed genes: none
+
+Important interpretation rules:
+- Patient is the statistical unit; cells are aggregated within each patient-condition EC sample.
+- CAR1 is descriptive only and is excluded from paired inference.
+- The original nine candidates and all programme genes were frozen before this validation.
+- C4 is analysed as an independent venous-capillary-like ECM-remodelling state, not as a second arterial branch.
+- C5 is retained as the transition position in C7→C3→C5→C1/C2, but no new C5 gene panel is invented because none was previously frozen.
+
+Primary programme results preview:
+                      program  n_pairs  median_difference_Plaque_minus_Control  n_support_expected_direction expected_direction  p_two_sided  FDR_two_sided  p_directional  FDR_directional
+C1C2_late_vascular_remodeling        9                               -0.331598                             3      Plaque_higher     0.054688       0.136719       0.980469         0.980469
+          C3_early_activation        9                                0.016622                             5      Plaque_higher     0.734375       0.910156       0.367188         0.758464
+C4_independent_ECM_remodeling        9                                0.023280                             5      Plaque_higher     0.910156       0.910156       0.455078         0.758464
+         C7_arterial_identity        9                                0.135100                             3       Plaque_lower     0.097656       0.162760       0.962891         0.980469
+       protective_homeostasis        9                               -0.229452                             7       Plaque_lower     0.054688       0.136719       0.027344         0.136719
+
+Plot generation skipped/failed: ModuleNotFoundError: No module named 'matplotlib'
+
+============================================================
+Step 2 完成。
+
+请下载并上传：
+/root/GSE247238_external_validation2/GSE247238_step2_fixed_panel_EC_validation_results.tar.gz
+
+服务器下载命令：
+sz /root/GSE247238_external_validation2/GSE247238_step2_fixed_panel_EC_validation_results.tar.gz
+
+最重要文件：
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/02_EC_counts_and_fraction_by_sample.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/05_fixed_gene_availability.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/09_fixed_program_scores_by_sample.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/11_program_paired_statistics.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/13_candidate_gene_paired_statistics.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/14_candidate_gene_patient_level_differences.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/15_primary_direction_summary.csv
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/16_step2_summary.txt
+
+图片目录：
+/root/GSE247238_external_validation2/06_fixed_panel_EC_validation/plots
+============================================================
+[2026-08-01 15:20:52] Step 2 completed

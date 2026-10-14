@@ -1,0 +1,7 @@
+"question","state","contrast","expected_sign","transfer_MAIN","transfer_EXPANDED","centroid_MAIN","centroid_EXPANDED","all_four_expected_direction","evidence_label"
+"C7 similarity decreases in Early","C7_homeostatic","Early-Normal",-1,0.00528881778317876,-0.00349676834619743,0.00661441311670742,-0.000157713718129443,FALSE,"not_consistent_across_all_four_checks"
+"C7 similarity decreases in Advanced","C7_homeostatic","Advanced-Normal",-1,0.00202819190533628,2.00608819485651e-05,0.0127653733025623,0.00722906820353183,FALSE,"not_consistent_across_all_four_checks"
+"C3 similarity increases in Early","C3_early","Early-Normal",1,0.0736231803199637,0.0480060920506612,0.0158837007278263,0.00995842983295667,TRUE,"direction_consistent_across_MAIN_EXPANDED_and_two_methods"
+"C5 transition similarity increases in Early","C5_transition","Early-Normal",1,-0.000665276671654613,0.00358955010896977,0.0500558433421759,0.0417369856149108,FALSE,"not_consistent_across_all_four_checks"
+"C1C2 similarity increases in Advanced vs Normal","C1C2_late","Advanced-Normal",1,-0.183662052268078,-0.161055401230886,-0.0633827774067157,-0.049213394708843,FALSE,"not_consistent_across_all_four_checks"
+"C1C2 similarity increases in Advanced vs matched Early","C1C2_late","Advanced-Early_paired",1,-0.138478934898354,-0.177281492308616,-0.0359402286734536,-0.0347533281776399,FALSE,"not_consistent_across_all_four_checks"

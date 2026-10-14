@@ -1,0 +1,23 @@
+GSE218166 mapping diagnostics closeout
+Generated: 2026-09-17 23:39:10
+
+Frozen Figure6 source directory: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166
+
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6B_hard_mapping_confidence_by_stage.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6B_hard_mapping_donor_stage_state_proportions.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6B_soft_state_donor_stage_scores.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6C_hard_mapping_primary_evidence_summary.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6C_hard_mapping_stage_tests.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6C_soft_state_stage_tests.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6D_MAIN_vs_EXPANDED_soft_state_concordance.csv
+COPIED: /root/AS_EC_MANUSCRIPT_FIGDATA_STRICT_20260831/Figure6/GSE218166/F6D_primary_soft_state_evidence_summary.csv
+
+Coverage against reviewer-requested diagnostics:
+- assignment / agreement: existing F6B hard-mapping confidence table
+- transfer confidence + margin: existing F6B hard-mapping confidence table
+- centroid continuous similarity: existing F6B + donor-stage soft-state tables
+- donor-level scores: existing F6B soft-state donor-stage table
+- MAIN vs EXPANDED sensitivity: existing F6D concordance table
+- mapping entropy: NOT RECOVERABLE from searched frozen exports; not approximated
+
+No scArches/scPoli/Symphony rerun was performed.

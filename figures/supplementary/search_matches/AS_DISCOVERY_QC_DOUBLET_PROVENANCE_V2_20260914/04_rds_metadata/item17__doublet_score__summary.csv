@@ -1,0 +1,2 @@
+"source_path","object_label","column","min","q01","median","q95","q99","max"
+"/root/AS_geneid_fixed_objects/all_53_qc_doublet_clean_geneid_fixed_objs.rds","item17","doublet_score",0,0.00018198997277221,0.154334359396502,0.335655851611934,0.389944046584902,0.404605535788174

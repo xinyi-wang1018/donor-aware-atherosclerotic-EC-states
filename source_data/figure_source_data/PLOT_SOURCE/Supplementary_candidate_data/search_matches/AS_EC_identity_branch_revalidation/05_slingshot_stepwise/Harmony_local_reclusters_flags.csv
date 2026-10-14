@@ -1,0 +1,2 @@
+"model","n_cells","n_clusters","n_lineages","any_shared_C7_C3","any_L1_core_order","any_L1_exact_order","any_L2_order","distinct_L1_L2_lineages","strong_terminal_C2_C4_branches"
+"Harmony_local_reclusters",4704,12,4,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE

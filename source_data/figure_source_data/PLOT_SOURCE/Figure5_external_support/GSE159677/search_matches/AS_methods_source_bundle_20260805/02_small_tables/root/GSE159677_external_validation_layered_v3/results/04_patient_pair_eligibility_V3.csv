@@ -1,0 +1,4 @@
+"patient_id","n_expanded_EC_AC","n_expanded_EC_PA","sample_eligible_30_AC","sample_eligible_30_PA","pair_eligible_30"
+"P1",768,1418,TRUE,TRUE,TRUE
+"P2",1274,691,TRUE,TRUE,TRUE
+"P3",765,759,TRUE,TRUE,TRUE

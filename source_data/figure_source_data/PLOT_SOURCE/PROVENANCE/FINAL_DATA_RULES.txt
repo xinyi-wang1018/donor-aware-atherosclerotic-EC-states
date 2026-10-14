@@ -1,0 +1,25 @@
+FIGURE 2:
+- strict-source EC only; GSE155512 + GSE253904.
+- expected 6,152 high-confidence EC and 4,435 core-state cells.
+- core states: C1/C2/C3/C4/C5/C7; other strict EC shown as Unassigned/grey.
+
+FIGURE 3:
+- authoritative donor DE source is AS_EC_C3C7_FINAL_FREEZE_20260904.
+- expected 12 paired donors, 3,375 tested genes.
+- do NOT use 20260831 Figure3 directory flagged DO_NOT_PLOT.
+- LODO feature construction excludes ANGPT2, LOX, CTHRC1 and SULF1.
+
+FIGURE 4:
+- contamination: final-submission 20260920 outputs + successful log.
+- arterial-only: 9 evaluable donors, all GSE253904; identity robustness only.
+- GSEA: preranked on all 3,375 tested genes.
+
+FIGURE 5:
+- GSE159677: 3 paired PA/AC patients; PA is plaque-adjacent, not healthy normal.
+- GSE247238: primary high-confidence C3-like/C7-like comparison uses 4 paired patients; strict EC sensitivity uses 2.
+
+FIGURE 6:
+- retain Unassigned.
+- donor-by-stage is the inferential unit.
+- strict thresholds: transfer score >=0.50, transfer margin >=0.10,
+  centroid correlation >=0.10, centroid margin >=0.03.

@@ -1,0 +1,11 @@
+===== STRICT ARTERIAL-ONLY C3 SENSITIVITY ANALYSIS =====
+Start time: 2026-08-12 14:28:52 
+Input: /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds 
+Output: /root/AS_EC_arterial_only_C3_sensitivity 
+
+Loaded object with 4704 cells and 32393 features.
+Detected state column: EC_cluster 
+Detected dataset column: dataset_id 
+Detected sample column: sample_id 
+
+Fontconfig warning: using without calling FcInit()

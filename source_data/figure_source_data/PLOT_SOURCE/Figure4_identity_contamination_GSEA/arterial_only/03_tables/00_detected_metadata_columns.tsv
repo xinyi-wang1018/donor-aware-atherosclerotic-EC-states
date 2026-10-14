@@ -1,0 +1,4 @@
+role	detected_column
+state	EC_cluster
+dataset	dataset_id
+sample	sample_id

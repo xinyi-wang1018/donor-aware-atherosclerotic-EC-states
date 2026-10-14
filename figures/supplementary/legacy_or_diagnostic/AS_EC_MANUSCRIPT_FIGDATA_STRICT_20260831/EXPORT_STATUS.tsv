@@ -1,0 +1,6 @@
+"module"	"status"	"message"	"output"
+"FIGURE1_ATLAS"	"PASS"	"completed"	""
+"FIGURE2_STRICT_SOURCE_EC"	"FAIL"	"object 'strict_md_cache' not found"	""
+"FIGURE3_STRICT_DONOR_C3_C7"	"PASS"	"completed"	""
+"FIGURE4_STRICT_ARTERIAL"	"PASS"	"completed"	""
+"FIGURE4_LITERATURE_FROZEN_SUMMARY"	"PASS"	"completed"	""

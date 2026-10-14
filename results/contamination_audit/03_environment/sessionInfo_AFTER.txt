@@ -1,0 +1,31 @@
+Captured AFTER successful final rerun
+Time: 2026-09-20 16:35:33.030632 
+
+R version 4.5.3 (2026-03-11)
+Platform: x86_64-conda-linux-gnu
+Running under: Ubuntu 24.04 LTS
+
+Matrix products: default
+BLAS/LAPACK: /root/miniconda3/lib/libopenblasp-r0.3.33.so;  LAPACK version 3.12.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.3
+
+Selected package versions:
+Seurat                    5.5.0
+SeuratObject              5.4.0
+Matrix                    1.7.5
+edgeR                     4.8.2
+harmony                   2.0.5
+slingshot                 2.18.0
+SingleCellExperiment      1.32.0
+scDblFinder               NOT_INSTALLED

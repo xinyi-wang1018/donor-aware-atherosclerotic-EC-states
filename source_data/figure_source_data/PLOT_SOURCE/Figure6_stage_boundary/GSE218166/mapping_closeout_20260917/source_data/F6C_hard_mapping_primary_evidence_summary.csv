@@ -1,0 +1,6 @@
+"biological_question","state","contrast","expected_sign","main_effect","expanded_effect","main_expected_direction","expanded_expected_direction","evidence_label"
+"C7 decreases by Early","C7_homeostatic","Early-Normal",-1,0.0202855260208201,0.00934108888015467,FALSE,FALSE,"expected_stage_enrichment_not_reproduced"
+"C7 decreases by Advanced","C7_homeostatic","Advanced-Normal",-1,0.0202855260208201,0.00934108888015467,FALSE,FALSE,"expected_stage_enrichment_not_reproduced"
+"C3 enriched in Early","C3_early","Early-Normal",1,0,0,FALSE,FALSE,"expected_stage_enrichment_not_reproduced"
+"C1C2 enriched in Advanced vs Normal","C1C2_late","Advanced-Normal",1,-0.12903641230833,-0.0564689978388532,FALSE,FALSE,"expected_stage_enrichment_not_reproduced"
+"C1C2 enriched in Advanced vs matched Early","C1C2_late","Advanced-Early_paired",1,-0.12903641230833,-0.0564689978388532,FALSE,FALSE,"expected_stage_enrichment_not_reproduced"

@@ -1,0 +1,15 @@
+GSE247238 Step 1C fixed expression mapping completed.
+Selected GEO gene identifier: features_col0
+Selected h5ad gene identifier: var_names
+Common genes used for identifier matching: 27322
+GEO samples: 19
+GEO patients: 10
+Paired patients available before mapping QC: 9 (CAR2, CAR3, CAR4, CAR5, CAR6, CAR7, CAR8, CAR9, CAR10)
+Paired patients with usable verified mapping: 4 (CAR7, CAR8, CAR9, CAR10)
+Patients requiring exclusion/review: CAR2, CAR3, CAR4, CAR5, CAR6
+
+Rules:
+- Use verified_condition from 06_final_verified_sample_mapping.csv.
+- CAR1 is unpaired and must not enter paired inference.
+- CAR11-CAR17 are not part of the 19 GEO raw matrices and must not be included.
+- Patients marked low_review_required, ambiguous_exclude or failed must not enter paired inference.

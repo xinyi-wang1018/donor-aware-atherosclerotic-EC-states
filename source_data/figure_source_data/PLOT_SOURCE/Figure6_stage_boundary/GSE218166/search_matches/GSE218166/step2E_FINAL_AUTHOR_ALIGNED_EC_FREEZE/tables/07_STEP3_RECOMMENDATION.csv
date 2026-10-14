@@ -1,0 +1,5 @@
+"component","dataset_or_set","recommendation"
+"Primary stage validation","FL + MAIN_A_STRICT_EC","PROCEED: donor x disease-stage pseudobulk"
+"Expanded sensitivity","FL + EXPANDED_AB_EC","Run same endpoints as sensitivity analysis"
+"3DE technology validation","3DE + MAIN_A_STRICT_EC","Do not treat as equal-strength three-stage validation; Early is underpowered"
+"Exploratory remodeling candidates","C_remodeling candidates","Use for state interpretation only, not primary EC identity"

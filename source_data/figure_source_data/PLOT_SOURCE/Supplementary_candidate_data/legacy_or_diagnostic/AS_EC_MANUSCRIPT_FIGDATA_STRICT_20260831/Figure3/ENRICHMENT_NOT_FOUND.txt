@@ -1,0 +1,4 @@
+No enrichment table was automatically accepted.
+This is intentional: the exporter will not reuse an old enrichment table blindly.
+If Figure 3C is retained, run enrichment specifically on the CURRENT
+F3C_C3_up_574_genes.csv and document database/version/settings.

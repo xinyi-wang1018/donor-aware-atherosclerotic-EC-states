@@ -1,0 +1,4 @@
+"definition","n_units"
+"donor x disease_stage (Individual_Level_reconstructed)",25
+"donor x position x lesion_process x tech",46
+"donor x position x lesion_process x plate x tech",80

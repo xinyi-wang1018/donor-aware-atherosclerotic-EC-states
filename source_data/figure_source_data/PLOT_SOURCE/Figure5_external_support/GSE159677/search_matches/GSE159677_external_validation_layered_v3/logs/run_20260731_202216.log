@@ -1,0 +1,97 @@
+============================================================
+GSE159677 V3 layered EC external validation
+Start: Fri Jul 31 20:22:16 CST 2026
+Full object: /root/GSE159677_external_validation_strict/objects/GSE159677_full_Harmony_strictECflag.rds
+Reference:   /root/AS_EC_slingshot/AS_EC_arterial_dysfunction_slingshot_scored.rds
+Output:      /root/GSE159677_external_validation_layered_v3
+============================================================
+V3 candidate EC clusters: 17, 2, 3, 9
+Fontconfig warning: using without calling FcInit()
+Warning: Scaling data with a low number of groups may produce misleading results
+Warning: Different features in new layer data than already exists for scale.data
+Running Harmony by patient_id ...
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+************************************409exists, retrying for cluster 71 1.82608
+**************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+Warning: Different features in new layer data than already exists for scale.data
+Warning: Number of dimensions changing from 40 to 30
+Error in `geom_line()`:
+! Problem while computing aesthetics.
+i Error occurred in the 1st layer.
+Caused by error:
+! object 'condition' not found
+Backtrace:
+     x
+  1. +-global save_png(...)
+  2. | \-ggplot2::ggsave(...)
+  3. |   \-base::lapply(plot, grid.draw)
+  4. |     +-grid (local) FUN(X[[i]], ...)
+  5. |     \-ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  6. |       +-base::print(x)
+  7. |       \-ggplot2 (local) `print.ggplot2::ggplot`(x)
+  8. |         +-ggplot2::ggplot_build(x)
+  9. |         \-ggplot2 (local) `ggplot_build.ggplot2::ggplot`(x)
+ 10. |           \-ggplot2:::by_layer(...)
+ 11. |             +-rlang::try_fetch(...)
+ 12. |             | +-base::tryCatch(...)
+ 13. |             | | \-base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 14. |             | |   \-base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 15. |             | |     \-base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 16. |             | \-base::withCallingHandlers(...)
+ 17. |             \-ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 18. |               \-l$compute_aesthetics(d, plot)
+ 19. |                 \-ggplot2 (local) compute_aesthetics(..., self = self)
+ 20. |                   \-ggplot2:::eval_aesthetics(aesthetics, data)
+ 21. |                     \-base::lapply(aesthetics, eval_tidy, data = data, env = env)
+ 22. |                       \-rlang (local) FUN(X[[i]], ...)
+ 23. \-base::.handleSimpleError(...)
+ 24.   \-rlang (local) h(simpleError(msg, call))
+ 25.     \-handlers[[1L]](cnd)
+ 26.       \-cli::cli_abort(...)
+ 27.         \-rlang::abort(...)
+Execution halted

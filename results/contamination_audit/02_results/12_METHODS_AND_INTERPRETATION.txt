@@ -1,0 +1,25 @@
+CORRECTED C3 CONTAMINATION / IDENTITY AUDIT
+
+Frozen object: /root/AS_EC_state_scoring/AS_EC_highconfidence_state_scored.rds
+State column: EC_cluster
+Hard QC required and passed: strict EC=6152; core=4435; C1=1440; C2=1181; C3=696; C4=624; C5=324; C7=170.
+
+Scoring:
+- Gene-wise z scores were computed from log-normalized RNA expression across the 4,435 strict-core EC cells.
+- EC/fibroblast/SMC/pericyte/myeloid program score = mean gene-wise z score for detected genes.
+- Non-EC-high thresholds were fixed from the C7 reference distribution at the 95th percentile.
+- EC-low threshold was fixed at the C7 EC-identity 25th percentile.
+- combined_nonEC_risk = any non-EC-high AND EC-low.
+- These are sensitivity flags, not proof that a cell is a contaminant.
+
+Sensitivity DE:
+- Risk filters were applied to BOTH C3 and C7.
+- Donors were reselected using >=5 cells in each state after each filter.
+- Raw RNA counts were re-aggregated to donor-state pseudobulk.
+- edgeR design: ~ donor_factor + condition (C7 reference; positive logFC = C3>C7).
+- filterByExpr: min.count=10, min.total.count=15, large.n=10, min.prop=0.7.
+
+Interpretation rule:
+- Strong robustness: ANGPT2/LOX/CTHRC1 retain positive logFC across non-EC filters and SULF1 retains negative logFC, preferably with similar effect sizes.
+- Concern: a key C3-up gene loses direction or most of its effect specifically after fibroblast/SMC/pericyte-risk exclusion.
+- FDR changes must be interpreted together with retained donor number and cell number.

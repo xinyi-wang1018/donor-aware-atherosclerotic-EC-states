@@ -1,0 +1,7 @@
+"sample_id","patient_id","condition","n_ultra_strict_EC"
+"P1_AC","P1","AC",2
+"P1_PA","P1","PA",575
+"P2_AC","P2","AC",139
+"P2_PA","P2","PA",102
+"P3_AC","P3","AC",2
+"P3_PA","P3","PA",249

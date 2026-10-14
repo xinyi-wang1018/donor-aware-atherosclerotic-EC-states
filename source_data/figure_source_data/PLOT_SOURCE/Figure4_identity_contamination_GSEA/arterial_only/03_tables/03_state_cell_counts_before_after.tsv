@@ -1,0 +1,11 @@
+filter	state	n_before	n_after	retention_fraction
+primary_arterial_only	C1	1515	1084	0.715511551155116
+primary_arterial_only	C2	1220	1114	0.913114754098361
+primary_arterial_only	C3	750	247	0.329333333333333
+primary_arterial_only	C5	349	151	0.432664756446991
+primary_arterial_only	C7	195	175	0.897435897435897
+ultra_arterial_dominant	C1	1515	775	0.511551155115512
+ultra_arterial_dominant	C2	1220	875	0.717213114754098
+ultra_arterial_dominant	C3	750	40	0.0533333333333333
+ultra_arterial_dominant	C5	349	62	0.177650429799427
+ultra_arterial_dominant	C7	195	171	0.876923076923077

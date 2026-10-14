@@ -1,0 +1,13 @@
+context,analysis_set,n_patients,patients
+All_EC,primary_all_available_pairs,9,CAR2;CAR3;CAR4;CAR5;CAR6;CAR7;CAR8;CAR9;CAR10
+All_EC,mapping_sensitivity_CAR7_CAR10,4,CAR7;CAR8;CAR9;CAR10
+All_EC,cell_count_sensitivity_both_ge10,5,CAR5;CAR6;CAR7;CAR9;CAR10
+All_EC,mapping_and_cell_count_ge10,3,CAR7;CAR9;CAR10
+EC_1,primary_all_available_pairs,9,CAR2;CAR3;CAR4;CAR5;CAR6;CAR7;CAR8;CAR9;CAR10
+EC_1,mapping_sensitivity_CAR7_CAR10,4,CAR7;CAR8;CAR9;CAR10
+EC_1,cell_count_sensitivity_both_ge10,5,CAR5;CAR6;CAR7;CAR9;CAR10
+EC_1,mapping_and_cell_count_ge10,3,CAR7;CAR9;CAR10
+EC_2,primary_all_available_pairs,5,CAR2;CAR5;CAR6;CAR9;CAR10
+EC_2,mapping_sensitivity_CAR7_CAR10,2,CAR9;CAR10
+EC_2,cell_count_sensitivity_both_ge10,3,CAR5;CAR6;CAR9
+EC_2,mapping_and_cell_count_ge10,1,CAR9
